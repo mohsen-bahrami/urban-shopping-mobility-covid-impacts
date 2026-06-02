@@ -5,7 +5,7 @@ urban-shopping-mobility-covid-impacts
 
 description of research, methodologies, and findings.
 
-## 📊 Dataset & Replication
+## Dataset & Replication
 To keep this repository lightweight and fast to clone, the large data components are hosted on the Open Science Framework (OSF).
 
 * **Source Code & Metadata:** Contained entirely within this GitHub repository.
