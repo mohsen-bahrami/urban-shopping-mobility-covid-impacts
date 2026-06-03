@@ -73,6 +73,17 @@ To keep this repository lightweight and fast to clone, the large data components
 * **Core Large Datasets:** [Access the full data suite on OSF](https://osf.io)
 
 ### Large Files Directory
+Large data files
+
+Large input files are hosted on OSF due to GitHub file-size limitations. 
+Download the OSF archive and place the files in the corresponding folders listed below.
+
+OSF project: [link]
+
+Required large files:
+- data/raw/...
+- data/model_inputs/table_2018.csv
+- data/model_inputs/table_2019.csv
 If you wish to replicate this study locally, please download the following files from our OSF repository and place them in the `/data` folder:
 1. `large_matrix_v1.bin` (approx. 800MB) — [Direct Download](https://osf.io)
 2. `simulation_output.csv` (approx. 650MB) — [Direct Download](https://osf.io)
