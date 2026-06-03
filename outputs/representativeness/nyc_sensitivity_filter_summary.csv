@@ -1,0 +1,12 @@
+metric,value
+All NYC CBGs,6493.0
+Filtered residential CBGs,6186.0
+CBGs removed by filter,307.0
+Population retained,8448699.0
+Population removed,13262.0
+Share of population retained,0.9984327509899892
+SafeGraph devices retained,531204.0
+SafeGraph devices removed,14959.0
+Share of SafeGraph devices retained,0.9726107407495564
+Minimum CBG population threshold,100.0
+Minimum SafeGraph device threshold,5.0
