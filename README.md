@@ -1,5 +1,13 @@
+# Urban Shopping Mobility and Socioeconomic Inequality During COVID-19
+
 # urban-shopping-mobility-covid-impacts
 urban-shopping-mobility-covid-impacts
+
+## Overview
+research question
+
+## Repository structure
+
 
 ```TEXT
 urban-shopping-mobility-covid/
@@ -63,6 +71,8 @@ urban-shopping-mobility-covid/
     └── README.md
 ```
 
+## Data availability
+
 
 description of research, methodologies, and findings.
 
@@ -87,3 +97,25 @@ Required large files:
 If you wish to replicate this study locally, please download the following files from our OSF repository and place them in the `/data` folder:
 1. `large_matrix_v1.bin` (approx. 800MB) — [Direct Download](https://osf.io)
 2. `simulation_output.csv` (approx. 650MB) — [Direct Download](https://osf.io)
+
+## Reproducibility workflow
+1. Download large data from OSF.
+2. Place files in data/raw/ or data/model_inputs/.
+3. Install requirements.
+4. Run notebooks in order.
+
+## Main analyses
+- Modified Huff/MCI model calibration
+- Socioeconomic heterogeneity
+- Robustness checks
+- Spatial diagnostics
+- Sampling-bias sensitivity
+
+## Key outputs
+List where figures and tables are saved.
+
+## Citation
+Paper citation placeholder.
+
+## License
+Code/data license clarification.
