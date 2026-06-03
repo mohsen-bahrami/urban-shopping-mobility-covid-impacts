@@ -1,0 +1,32 @@
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Large/raw data
+data/raw/
+data/external/
+*.zip
+*.tar
+*.tar.gz
+
+# Very large intermediate files
+*.parquet
+*.feather
+*.pkl
+
+# Temporary outputs
+tmp/
+temp/
+
+# Manuscript private/reviewer files
+docs/revision_notes/
+docs/reviewer_comments/
