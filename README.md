@@ -1,6 +1,7 @@
 # urban-shopping-mobility-covid-impacts
 urban-shopping-mobility-covid-impacts
 
+```TEXT
 urban-shopping-mobility-covid/
 │
 ├── README.md
@@ -60,11 +61,8 @@ urban-shopping-mobility-covid/
 │
 └── archive/
     └── README.md
+```
 
-
-
-
-]
 
 description of research, methodologies, and findings.
 
