@@ -1,0 +1,25 @@
+parameter,Excluding top 10% absolute sampling-bias CBGs,Excluding top 20% absolute sampling-bias CBGs,Full analytical sample,period
+chain_loyalty,negative,negative,negative,2018_2019
+demographic_similarity,negative,negative,negative,2018_2019
+distance,negative,negative,negative,2018_2019
+poi_count,negative,negative,negative,2018_2019
+poi_diversity,positive,positive,positive,2018_2019
+store_area,positive,positive,positive,2018_2019
+chain_loyalty,positive,positive,positive,2019_2020
+demographic_similarity,positive,positive,positive,2019_2020
+distance,negative,negative,negative,2019_2020
+poi_count,positive,positive,positive,2019_2020
+poi_diversity,positive,positive,positive,2019_2020
+store_area,positive,positive,positive,2019_2020
+chain_loyalty,negative,negative,positive,2020_2021
+demographic_similarity,positive,positive,negative,2020_2021
+distance,negative,negative,negative,2020_2021
+poi_count,positive,positive,positive,2020_2021
+poi_diversity,positive,positive,positive,2020_2021
+store_area,positive,positive,positive,2020_2021
+chain_loyalty,positive,positive,positive,2019_2021
+demographic_similarity,positive,positive,positive,2019_2021
+distance,negative,negative,negative,2019_2021
+poi_count,positive,positive,positive,2019_2021
+poi_diversity,positive,positive,positive,2019_2021
+store_area,positive,positive,positive,2019_2021
