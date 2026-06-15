@@ -6,5 +6,5 @@ Download them from the companion OSF repository and place them in this folder be
 
 [Click here for urban-shopping-mobility-covid-impacts OSF Repo](https://osf.io/r9yz7/overview)
 
-The code notebook: /notebooks/01_data_representativeness.ipynb
+The code notebook: `/notebooks/01_data_representativeness.ipynb`
 
