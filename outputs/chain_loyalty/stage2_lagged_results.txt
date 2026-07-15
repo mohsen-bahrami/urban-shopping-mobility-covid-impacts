@@ -1,0 +1,355 @@
+================================================================================================
+ITEM 4 — CHAIN-LOYALTY ROBUSTNESS: Stage 2 LAGGED re-calibration
+PSO GlobalBestPSO n_particles=20 dims=6 c1=c2=1.5 w=0.9 iters=10 ; EXPONENT bounds=[1,15] (all samples)
+Feature normalization ceiling = 28 (=[1,28]).  Lagged R = prior-year already-scaled loyalty.
+numpy seed=42.  PREFLIGHT PASSED (100%% pair match; R in [0,1] all years).
+================================================================================================
+
+##### STEP 5 — running 9 lagged PSO calibrations #####
+
+  --- SAMPLE: pooled ---
+    built lagged_2019: 5502 CBGs, 1551564 rows
+    [pooled 2019] 100/5502 (elapsed 0.8s, 0.008s/cbg)
+    [pooled 2019] 200/5502 (elapsed 1.7s, 0.008s/cbg)
+    [pooled 2019] 300/5502 (elapsed 2.5s, 0.008s/cbg)
+    [pooled 2019] 400/5502 (elapsed 3.3s, 0.008s/cbg)
+    [pooled 2019] 500/5502 (elapsed 4.1s, 0.008s/cbg)
+    [pooled 2019] 600/5502 (elapsed 4.9s, 0.008s/cbg)
+    [pooled 2019] 700/5502 (elapsed 5.7s, 0.008s/cbg)
+    [pooled 2019] 800/5502 (elapsed 6.5s, 0.008s/cbg)
+    [pooled 2019] 900/5502 (elapsed 7.3s, 0.008s/cbg)
+    [pooled 2019] 1000/5502 (elapsed 8.2s, 0.008s/cbg)
+    [pooled 2019] 1100/5502 (elapsed 9.0s, 0.008s/cbg)
+    [pooled 2019] 1200/5502 (elapsed 9.8s, 0.008s/cbg)
+    [pooled 2019] 1300/5502 (elapsed 10.6s, 0.008s/cbg)
+    [pooled 2019] 1400/5502 (elapsed 11.4s, 0.008s/cbg)
+    [pooled 2019] 1500/5502 (elapsed 12.2s, 0.008s/cbg)
+    [pooled 2019] 1600/5502 (elapsed 13.0s, 0.008s/cbg)
+    [pooled 2019] 1700/5502 (elapsed 13.8s, 0.008s/cbg)
+    [pooled 2019] 1800/5502 (elapsed 14.6s, 0.008s/cbg)
+    [pooled 2019] 1900/5502 (elapsed 15.4s, 0.008s/cbg)
+    [pooled 2019] 2000/5502 (elapsed 16.2s, 0.008s/cbg)
+    [pooled 2019] 2100/5502 (elapsed 17.0s, 0.008s/cbg)
+    [pooled 2019] 2200/5502 (elapsed 17.9s, 0.008s/cbg)
+    [pooled 2019] 2300/5502 (elapsed 18.7s, 0.008s/cbg)
+    [pooled 2019] 2400/5502 (elapsed 19.5s, 0.008s/cbg)
+    [pooled 2019] 2500/5502 (elapsed 20.3s, 0.008s/cbg)
+    [pooled 2019] 2600/5502 (elapsed 21.2s, 0.008s/cbg)
+    [pooled 2019] 2700/5502 (elapsed 22.0s, 0.008s/cbg)
+    [pooled 2019] 2800/5502 (elapsed 22.8s, 0.008s/cbg)
+    [pooled 2019] 2900/5502 (elapsed 23.6s, 0.008s/cbg)
+    [pooled 2019] 3000/5502 (elapsed 24.4s, 0.008s/cbg)
+    [pooled 2019] 3100/5502 (elapsed 25.2s, 0.008s/cbg)
+    [pooled 2019] 3200/5502 (elapsed 26.2s, 0.008s/cbg)
+    [pooled 2019] 3300/5502 (elapsed 27.0s, 0.008s/cbg)
+    [pooled 2019] 3400/5502 (elapsed 27.8s, 0.008s/cbg)
+    [pooled 2019] 3500/5502 (elapsed 28.7s, 0.008s/cbg)
+    [pooled 2019] 3600/5502 (elapsed 29.5s, 0.008s/cbg)
+    [pooled 2019] 3700/5502 (elapsed 30.3s, 0.008s/cbg)
+    [pooled 2019] 3800/5502 (elapsed 31.1s, 0.008s/cbg)
+    [pooled 2019] 3900/5502 (elapsed 32.0s, 0.008s/cbg)
+    [pooled 2019] 4000/5502 (elapsed 32.8s, 0.008s/cbg)
+    [pooled 2019] 4100/5502 (elapsed 33.7s, 0.008s/cbg)
+    [pooled 2019] 4200/5502 (elapsed 34.5s, 0.008s/cbg)
+    [pooled 2019] 4300/5502 (elapsed 35.3s, 0.008s/cbg)
+    [pooled 2019] 4400/5502 (elapsed 36.2s, 0.008s/cbg)
+    [pooled 2019] 4500/5502 (elapsed 37.1s, 0.008s/cbg)
+    [pooled 2019] 4600/5502 (elapsed 37.9s, 0.008s/cbg)
+    [pooled 2019] 4700/5502 (elapsed 38.7s, 0.008s/cbg)
+    [pooled 2019] 4800/5502 (elapsed 39.6s, 0.008s/cbg)
+    [pooled 2019] 4900/5502 (elapsed 40.5s, 0.008s/cbg)
+    [pooled 2019] 5000/5502 (elapsed 41.4s, 0.008s/cbg)
+    [pooled 2019] 5100/5502 (elapsed 42.3s, 0.008s/cbg)
+    [pooled 2019] 5200/5502 (elapsed 43.3s, 0.008s/cbg)
+    [pooled 2019] 5300/5502 (elapsed 44.3s, 0.008s/cbg)
+    [pooled 2019] 5400/5502 (elapsed 45.1s, 0.008s/cbg)
+    [pooled 2019] 5500/5502 (elapsed 45.9s, 0.008s/cbg)
+    [pooled 2019] COMPLETE: 5502 CBGs (5502 new, 0 pre-existing) in 45.9s
+    built lagged_2020: 5502 CBGs, 1551564 rows
+    [pooled 2020] 100/5502 (elapsed 0.9s, 0.009s/cbg)
+    [pooled 2020] 200/5502 (elapsed 1.7s, 0.009s/cbg)
+    [pooled 2020] 300/5502 (elapsed 2.6s, 0.009s/cbg)
+    [pooled 2020] 400/5502 (elapsed 3.4s, 0.008s/cbg)
+    [pooled 2020] 500/5502 (elapsed 4.2s, 0.008s/cbg)
+    [pooled 2020] 600/5502 (elapsed 5.0s, 0.008s/cbg)
+    [pooled 2020] 700/5502 (elapsed 5.9s, 0.008s/cbg)
+    [pooled 2020] 800/5502 (elapsed 6.7s, 0.008s/cbg)
+    [pooled 2020] 900/5502 (elapsed 7.6s, 0.008s/cbg)
+    [pooled 2020] 1000/5502 (elapsed 8.4s, 0.008s/cbg)
+    [pooled 2020] 1100/5502 (elapsed 9.3s, 0.008s/cbg)
+    [pooled 2020] 1200/5502 (elapsed 10.2s, 0.009s/cbg)
+    [pooled 2020] 1300/5502 (elapsed 11.0s, 0.008s/cbg)
+    [pooled 2020] 1400/5502 (elapsed 11.8s, 0.008s/cbg)
+    [pooled 2020] 1500/5502 (elapsed 12.7s, 0.008s/cbg)
+    [pooled 2020] 1600/5502 (elapsed 13.5s, 0.008s/cbg)
+    [pooled 2020] 1700/5502 (elapsed 14.3s, 0.008s/cbg)
+    [pooled 2020] 1800/5502 (elapsed 15.1s, 0.008s/cbg)
+    [pooled 2020] 1900/5502 (elapsed 16.0s, 0.008s/cbg)
+    [pooled 2020] 2000/5502 (elapsed 16.8s, 0.008s/cbg)
+    [pooled 2020] 2100/5502 (elapsed 17.6s, 0.008s/cbg)
+    [pooled 2020] 2200/5502 (elapsed 18.4s, 0.008s/cbg)
+    [pooled 2020] 2300/5502 (elapsed 19.2s, 0.008s/cbg)
+    [pooled 2020] 2400/5502 (elapsed 20.0s, 0.008s/cbg)
+    [pooled 2020] 2500/5502 (elapsed 20.8s, 0.008s/cbg)
+    [pooled 2020] 2600/5502 (elapsed 21.6s, 0.008s/cbg)
+    [pooled 2020] 2700/5502 (elapsed 22.5s, 0.008s/cbg)
+    [pooled 2020] 2800/5502 (elapsed 23.3s, 0.008s/cbg)
+    [pooled 2020] 2900/5502 (elapsed 24.1s, 0.008s/cbg)
+    [pooled 2020] 3000/5502 (elapsed 24.9s, 0.008s/cbg)
+    [pooled 2020] 3100/5502 (elapsed 25.7s, 0.008s/cbg)
+    [pooled 2020] 3200/5502 (elapsed 26.5s, 0.008s/cbg)
+    [pooled 2020] 3300/5502 (elapsed 27.4s, 0.008s/cbg)
+    [pooled 2020] 3400/5502 (elapsed 28.2s, 0.008s/cbg)
+    [pooled 2020] 3500/5502 (elapsed 29.1s, 0.008s/cbg)
+    [pooled 2020] 3600/5502 (elapsed 29.9s, 0.008s/cbg)
+    [pooled 2020] 3700/5502 (elapsed 30.7s, 0.008s/cbg)
+    [pooled 2020] 3800/5502 (elapsed 31.5s, 0.008s/cbg)
+    [pooled 2020] 3900/5502 (elapsed 32.3s, 0.008s/cbg)
+    [pooled 2020] 4000/5502 (elapsed 33.3s, 0.008s/cbg)
+    [pooled 2020] 4100/5502 (elapsed 34.2s, 0.008s/cbg)
+    [pooled 2020] 4200/5502 (elapsed 35.1s, 0.008s/cbg)
+    [pooled 2020] 4300/5502 (elapsed 36.0s, 0.008s/cbg)
+    [pooled 2020] 4400/5502 (elapsed 36.8s, 0.008s/cbg)
+    [pooled 2020] 4500/5502 (elapsed 37.7s, 0.008s/cbg)
+    [pooled 2020] 4600/5502 (elapsed 38.6s, 0.008s/cbg)
+    [pooled 2020] 4700/5502 (elapsed 39.5s, 0.008s/cbg)
+    [pooled 2020] 4800/5502 (elapsed 40.3s, 0.008s/cbg)
+    [pooled 2020] 4900/5502 (elapsed 41.2s, 0.008s/cbg)
+    [pooled 2020] 5000/5502 (elapsed 42.1s, 0.008s/cbg)
+    [pooled 2020] 5100/5502 (elapsed 42.9s, 0.008s/cbg)
+    [pooled 2020] 5200/5502 (elapsed 43.8s, 0.008s/cbg)
+    [pooled 2020] 5300/5502 (elapsed 44.6s, 0.008s/cbg)
+    [pooled 2020] 5400/5502 (elapsed 45.5s, 0.008s/cbg)
+    [pooled 2020] 5500/5502 (elapsed 46.3s, 0.008s/cbg)
+    [pooled 2020] COMPLETE: 5502 CBGs (5502 new, 0 pre-existing) in 46.4s
+    built lagged_2021: 5502 CBGs, 1551564 rows
+    [pooled 2021] 100/5502 (elapsed 0.8s, 0.008s/cbg)
+    [pooled 2021] 200/5502 (elapsed 1.7s, 0.008s/cbg)
+    [pooled 2021] 300/5502 (elapsed 2.5s, 0.008s/cbg)
+    [pooled 2021] 400/5502 (elapsed 3.3s, 0.008s/cbg)
+    [pooled 2021] 500/5502 (elapsed 4.1s, 0.008s/cbg)
+    [pooled 2021] 600/5502 (elapsed 4.9s, 0.008s/cbg)
+    [pooled 2021] 700/5502 (elapsed 5.7s, 0.008s/cbg)
+    [pooled 2021] 800/5502 (elapsed 6.5s, 0.008s/cbg)
+    [pooled 2021] 900/5502 (elapsed 7.3s, 0.008s/cbg)
+    [pooled 2021] 1000/5502 (elapsed 8.1s, 0.008s/cbg)
+    [pooled 2021] 1100/5502 (elapsed 8.9s, 0.008s/cbg)
+    [pooled 2021] 1200/5502 (elapsed 9.8s, 0.008s/cbg)
+    [pooled 2021] 1300/5502 (elapsed 10.6s, 0.008s/cbg)
+    [pooled 2021] 1400/5502 (elapsed 11.4s, 0.008s/cbg)
+    [pooled 2021] 1500/5502 (elapsed 12.2s, 0.008s/cbg)
+    [pooled 2021] 1600/5502 (elapsed 13.0s, 0.008s/cbg)
+    [pooled 2021] 1700/5502 (elapsed 13.8s, 0.008s/cbg)
+    [pooled 2021] 1800/5502 (elapsed 14.6s, 0.008s/cbg)
+    [pooled 2021] 1900/5502 (elapsed 15.5s, 0.008s/cbg)
+    [pooled 2021] 2000/5502 (elapsed 16.3s, 0.008s/cbg)
+    [pooled 2021] 2100/5502 (elapsed 17.1s, 0.008s/cbg)
+    [pooled 2021] 2200/5502 (elapsed 17.9s, 0.008s/cbg)
+    [pooled 2021] 2300/5502 (elapsed 18.7s, 0.008s/cbg)
+    [pooled 2021] 2400/5502 (elapsed 19.5s, 0.008s/cbg)
+    [pooled 2021] 2500/5502 (elapsed 20.3s, 0.008s/cbg)
+    [pooled 2021] 2600/5502 (elapsed 21.1s, 0.008s/cbg)
+    [pooled 2021] 2700/5502 (elapsed 21.9s, 0.008s/cbg)
+    [pooled 2021] 2800/5502 (elapsed 22.8s, 0.008s/cbg)
+    [pooled 2021] 2900/5502 (elapsed 23.6s, 0.008s/cbg)
+    [pooled 2021] 3000/5502 (elapsed 24.4s, 0.008s/cbg)
+    [pooled 2021] 3100/5502 (elapsed 25.2s, 0.008s/cbg)
+    [pooled 2021] 3200/5502 (elapsed 26.0s, 0.008s/cbg)
+    [pooled 2021] 3300/5502 (elapsed 26.8s, 0.008s/cbg)
+    [pooled 2021] 3400/5502 (elapsed 27.6s, 0.008s/cbg)
+    [pooled 2021] 3500/5502 (elapsed 28.4s, 0.008s/cbg)
+    [pooled 2021] 3600/5502 (elapsed 29.2s, 0.008s/cbg)
+    [pooled 2021] 3700/5502 (elapsed 30.0s, 0.008s/cbg)
+    [pooled 2021] 3800/5502 (elapsed 30.9s, 0.008s/cbg)
+    [pooled 2021] 3900/5502 (elapsed 31.7s, 0.008s/cbg)
+    [pooled 2021] 4000/5502 (elapsed 32.6s, 0.008s/cbg)
+    [pooled 2021] 4100/5502 (elapsed 33.4s, 0.008s/cbg)
+    [pooled 2021] 4200/5502 (elapsed 34.2s, 0.008s/cbg)
+    [pooled 2021] 4300/5502 (elapsed 35.0s, 0.008s/cbg)
+    [pooled 2021] 4400/5502 (elapsed 35.8s, 0.008s/cbg)
+    [pooled 2021] 4500/5502 (elapsed 36.7s, 0.008s/cbg)
+    [pooled 2021] 4600/5502 (elapsed 37.5s, 0.008s/cbg)
+    [pooled 2021] 4700/5502 (elapsed 38.3s, 0.008s/cbg)
+    [pooled 2021] 4800/5502 (elapsed 39.1s, 0.008s/cbg)
+    [pooled 2021] 4900/5502 (elapsed 39.9s, 0.008s/cbg)
+    [pooled 2021] 5000/5502 (elapsed 40.8s, 0.008s/cbg)
+    [pooled 2021] 5100/5502 (elapsed 41.6s, 0.008s/cbg)
+    [pooled 2021] 5200/5502 (elapsed 42.4s, 0.008s/cbg)
+    [pooled 2021] 5300/5502 (elapsed 43.3s, 0.008s/cbg)
+    [pooled 2021] 5400/5502 (elapsed 44.1s, 0.008s/cbg)
+    [pooled 2021] 5500/5502 (elapsed 45.0s, 0.008s/cbg)
+    [pooled 2021] COMPLETE: 5502 CBGs (5502 new, 0 pre-existing) in 45.0s
+
+  --- SAMPLE: 452210 ---
+    built lagged_2019: 448 CBGs, 39424 rows
+    [452210 2019] 100/448 (elapsed 0.6s, 0.006s/cbg)
+    [452210 2019] 200/448 (elapsed 1.2s, 0.006s/cbg)
+    [452210 2019] 300/448 (elapsed 1.8s, 0.006s/cbg)
+    [452210 2019] 400/448 (elapsed 2.4s, 0.006s/cbg)
+    [452210 2019] COMPLETE: 448 CBGs (448 new, 0 pre-existing) in 2.7s
+    built lagged_2020: 448 CBGs, 39424 rows
+    [452210 2020] 100/448 (elapsed 0.6s, 0.006s/cbg)
+    [452210 2020] 200/448 (elapsed 1.2s, 0.006s/cbg)
+    [452210 2020] 300/448 (elapsed 1.9s, 0.006s/cbg)
+    [452210 2020] 400/448 (elapsed 2.5s, 0.006s/cbg)
+    [452210 2020] COMPLETE: 448 CBGs (448 new, 0 pre-existing) in 2.8s
+    built lagged_2021: 448 CBGs, 39424 rows
+    [452210 2021] 100/448 (elapsed 0.6s, 0.006s/cbg)
+    [452210 2021] 200/448 (elapsed 1.2s, 0.006s/cbg)
+    [452210 2021] 300/448 (elapsed 1.9s, 0.006s/cbg)
+    [452210 2021] 400/448 (elapsed 2.5s, 0.006s/cbg)
+    [452210 2021] COMPLETE: 448 CBGs (448 new, 0 pre-existing) in 2.8s
+
+  --- SAMPLE: 452319 ---
+    built lagged_2019: 450 CBGs, 69300 rows
+    [452319 2019] 100/450 (elapsed 0.7s, 0.007s/cbg)
+    [452319 2019] 200/450 (elapsed 1.4s, 0.007s/cbg)
+    [452319 2019] 300/450 (elapsed 2.2s, 0.007s/cbg)
+    [452319 2019] 400/450 (elapsed 2.8s, 0.007s/cbg)
+    [452319 2019] COMPLETE: 450 CBGs (450 new, 0 pre-existing) in 3.2s
+    built lagged_2020: 450 CBGs, 69300 rows
+    [452319 2020] 100/450 (elapsed 0.7s, 0.007s/cbg)
+    [452319 2020] 200/450 (elapsed 1.4s, 0.007s/cbg)
+    [452319 2020] 300/450 (elapsed 2.1s, 0.007s/cbg)
+    [452319 2020] 400/450 (elapsed 2.8s, 0.007s/cbg)
+    [452319 2020] COMPLETE: 450 CBGs (450 new, 0 pre-existing) in 3.1s
+    built lagged_2021: 450 CBGs, 69300 rows
+    [452319 2021] 100/450 (elapsed 0.7s, 0.007s/cbg)
+    [452319 2021] 200/450 (elapsed 1.4s, 0.007s/cbg)
+    [452319 2021] 300/450 (elapsed 2.1s, 0.007s/cbg)
+    [452319 2021] 400/450 (elapsed 2.8s, 0.007s/cbg)
+    [452319 2021] COMPLETE: 450 CBGs (450 new, 0 pre-existing) in 3.1s
+
+
+##### STEP 8 — mean CBG-level fit (1-cost) per LAGGED run #####
+  (pooled unlagged fit baseline from data/model_outputs for reference)
+    pooled UNLAGGED 2019: mean fit (1-cost) = 0.6938
+    pooled UNLAGGED 2020: mean fit (1-cost) = 0.2316
+    pooled UNLAGGED 2021: mean fit (1-cost) = 0.1647
+
+  sample pooled LAGGED fit:
+    2019: mean fit (1-cost) = 0.6629
+    2020: mean fit (1-cost) = 0.1723
+    2021: mean fit (1-cost) = 0.1016
+
+  sample 452210 LAGGED fit:
+    2019: mean fit (1-cost) = 0.6962
+    2020: mean fit (1-cost) = 0.1654
+    2021: mean fit (1-cost) = 0.1293
+
+  sample 452319 LAGGED fit:
+    2019: mean fit (1-cost) = 0.6948
+    2020: mean fit (1-cost) = 0.1916
+    2021: mean fit (1-cost) = 0.1305
+
+
+##### STEP 6 — % change in mean parameters under LAGGED design #####
+
+  sample pooled:
+    Parameter                  lag 2019->2020   lag 2019->2021
+    Store area                         76.84%           83.10%
+    Chain loyalty                      24.82%           40.30%
+    POI count                          41.07%           65.51%
+    POI diversity                      15.65%           16.69%
+    Demographic similarity              3.75%            3.06%
+    Distance                          -18.81%          -27.54%
+
+  sample 452210:
+    Parameter                  lag 2019->2020   lag 2019->2021
+    Store area                         98.55%          107.11%
+    Chain loyalty                       4.10%           19.93%
+    POI count                          52.72%           79.70%
+    POI diversity                       4.76%           11.23%
+    Demographic similarity              2.44%            8.51%
+    Distance                          -23.66%          -22.63%
+
+  sample 452319:
+    Parameter                  lag 2019->2020   lag 2019->2021
+    Store area                         23.15%           34.59%
+    Chain loyalty                      -1.68%           -3.04%
+    POI count                          61.97%           83.87%
+    POI diversity                      26.73%           14.90%
+    Demographic similarity             -2.33%            5.56%
+    Distance                          -24.53%          -34.86%
+
+
+##### STEP 7 — COMPARISON: unlagged (same-period) vs lagged % change #####
+
+  ===== 2019 -> 2020 =====
+    Parameter              Sample       Unlagged %     Lagged %
+    Store area             pooled           78.58%       76.84%
+    Chain loyalty          pooled           43.46%       24.82%
+    POI count              pooled           27.93%       41.07%
+    POI diversity          pooled           12.20%       15.65%
+    Demographic similarity pooled            2.50%        3.75%
+    Distance               pooled          -22.53%      -18.81%
+
+    Store area             452210           58.62%       98.55%
+    Chain loyalty          452210           33.85%        4.10%
+    POI count              452210              n/a       52.72%
+    POI diversity          452210              n/a        4.76%
+    Demographic similarity 452210              n/a        2.44%
+    Distance               452210              n/a      -23.66%
+
+    Store area             452319           47.47%       23.15%
+    Chain loyalty          452319            3.41%       -1.68%
+    POI count              452319              n/a       61.97%
+    POI diversity          452319              n/a       26.73%
+    Demographic similarity 452319              n/a       -2.33%
+    Distance               452319              n/a      -24.53%
+
+
+  ===== 2019 -> 2021 =====
+    Parameter              Sample       Unlagged %     Lagged %
+    Store area             pooled           80.97%       83.10%
+    Chain loyalty          pooled           43.84%       40.30%
+    POI count              pooled           44.75%       65.51%
+    POI diversity          pooled           15.82%       16.69%
+    Demographic similarity pooled            2.18%        3.06%
+    Distance               pooled          -34.90%      -27.54%
+
+    Store area             452210           54.15%      107.11%
+    Chain loyalty          452210           35.70%       19.93%
+    POI count              452210              n/a       79.70%
+    POI diversity          452210              n/a       11.23%
+    Demographic similarity 452210              n/a        8.51%
+    Distance               452210              n/a      -22.63%
+
+    Store area             452319           44.45%       34.59%
+    Chain loyalty          452319            4.91%       -3.04%
+    POI count              452319              n/a       83.87%
+    POI diversity          452319              n/a       14.90%
+    Demographic similarity 452319              n/a        5.56%
+    Distance               452319              n/a      -34.86%
+
+
+##### Reference: raw mean parameter values per lagged run #####
+
+  pooled:
+                           2019    2020    2021
+Store area               4.4474  7.8650  8.1430
+Chain loyalty            6.3288  7.8995  8.8794
+POI count                3.8520  5.4340  6.3755
+POI diversity            6.8306  7.9000  7.9707
+Demographic similarity   7.6753  7.9631  7.9104
+Distance                10.8295  8.7926  7.8470
+
+  452210:
+                           2019    2020    2021
+Store area               4.1951  8.3294  8.6885
+Chain loyalty            6.6635  6.9365  7.9917
+POI count                3.5059  5.3541  6.3001
+POI diversity            7.3782  7.7295  8.2069
+Demographic similarity   7.7572  7.9464  8.4173
+Distance                10.8844  8.3089  8.4207
+
+  452319:
+                           2019    2020    2021
+Store area               5.8258  7.1746  7.8407
+Chain loyalty            7.5598  7.4325  7.3302
+POI count                4.0098  6.4944  7.3726
+POI diversity            6.4790  8.2107  7.4445
+Demographic similarity   7.5062  7.3315  7.9234
+Distance                10.6049  8.0031  6.9080
+
+##### DONE — Stage 2 lagged calibration complete. #####

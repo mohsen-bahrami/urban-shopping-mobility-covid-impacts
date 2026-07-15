@@ -1,0 +1,283 @@
+store_id,naics_code,top_category,sub_category,brand_name,match_type
+sg:00ef4456127c477c812e940d10def160,452210,Department Stores,Department Stores,JCPenney,brand_id
+sg:159eb0e111a340b1ac23843176622804,452210,Department Stores,Department Stores,JCPenney,brand_id
+sg:a5d8b3f9f6b54f259ac75634c6b5c4b2,452210,Department Stores,Department Stores,JCPenney,brand_id
+sg:3cdfe9d9c55c4a2bb36b05fc6f7c7d54,452210,Department Stores,Department Stores,Macy's,brand_id
+sg:6a1fead832624e1ea87d46316d70fefd,452210,Department Stores,Department Stores,Macy's,brand_id
+sg:7f1fde9fd68b47899bfab9cd5f0071df,452210,Department Stores,Department Stores,Macy's,brand_id
+sg:869b464f49e74e269e71e7f84ef48ede,452210,Department Stores,Department Stores,Macy's,brand_id
+sg:95f37cdd81a14dacbb53ca5b4dfda1fd,452210,Department Stores,Department Stores,Macy's,brand_id
+sg:9eb470b911834d2b9135644f191238eb,452210,Department Stores,Department Stores,Macy's,brand_id
+sg:fd79ecc3453c44e8922dbd22594aebd2,452210,Department Stores,Department Stores,Macy's,brand_id
+sg:f4d5d71201c24143a7a6aecc6b846cfb,452210,Department Stores,Department Stores,Saks Off Fifth,brand_id
+sg:06fa68d3dd964dc99af9891c65d1a5e9,452210,Department Stores,Department Stores,Sears Home Services,brand_id
+sg:078a45773f344a14af7e24dfd6e8d90b,452210,Department Stores,Department Stores,Sears Home Services,brand_id
+sg:18df4e86ce134c9faed6d00d755033ad,452210,Department Stores,Department Stores,Sears Home Services,brand_id
+sg:3682bcbecb2946389ded4e1089994c58,452210,Department Stores,Department Stores,Sears Home Services,brand_id
+sg:52de54a8c5b74a3c9f0cd9b44b7830aa,452210,Department Stores,Department Stores,Sears Home Services,brand_id
+sg:95285365ea084c05930d3ccab60bb2ca,452210,Department Stores,Department Stores,Sears Home Services,brand_id
+sg:ad7ad5129c3245b6bfb4ccde3af534b9,452210,Department Stores,Department Stores,Sears Home Services,brand_id
+sg:bbfc2e6f87f24f3694399dc168f164a2,452210,Department Stores,Department Stores,Sears Home Services,brand_id
+sg:bd818b6652ec408dbdf07a3b600b9acd,452210,Department Stores,Department Stores,Sears Home Services,brand_id
+sg:ee52995162e849989710efd529ceadf8,452210,Department Stores,Department Stores,Sears Home Services,brand_id
+sg:047d5451c50b4d74934b342fcee296d3,452210,Department Stores,Department Stores,T.J. Maxx,brand_id
+sg:0d114e120c8b440a9068d296007703e2,452210,Department Stores,Department Stores,T.J. Maxx,brand_id
+sg:0f866087bfc343458c98dd031b228192,452210,Department Stores,Department Stores,T.J. Maxx,brand_id
+sg:19c431aa35e3402aae666b0fadc32870,452210,Department Stores,Department Stores,T.J. Maxx,brand_id
+sg:35a9fa94ed174ae9acdbd6c41951ab9d,452210,Department Stores,Department Stores,T.J. Maxx,brand_id
+sg:372bb8517c81493daaf891f47605834a,452210,Department Stores,Department Stores,T.J. Maxx,brand_id
+sg:43f43e0d55334cea8772023b5b73c13b,452210,Department Stores,Department Stores,T.J. Maxx,brand_id
+sg:450ecbee304d4472a3dbd9198d87123d,452210,Department Stores,Department Stores,T.J. Maxx,brand_id
+sg:4f555ee9638a42a38ae31a3d1ea0e8a5,452210,Department Stores,Department Stores,T.J. Maxx,brand_id
+sg:5cd2a6d5a3e54dbfba713ab8b26cf501,452210,Department Stores,Department Stores,T.J. Maxx,brand_id
+sg:7a8a5b3ec0f94d869c388ee46bff1503,452210,Department Stores,Department Stores,T.J. Maxx,brand_id
+sg:8e06442d4be946ffbebfff93e4659e90,452210,Department Stores,Department Stores,T.J. Maxx,brand_id
+sg:9b0b25d2e491405d839cf58f130d7b49,452210,Department Stores,Department Stores,T.J. Maxx,brand_id
+sg:be53cc3db7c4491d8c432c957a6f46d1,452210,Department Stores,Department Stores,T.J. Maxx,brand_id
+sg:eb3b350749604f60abc470b0ae0b4822,452210,Department Stores,Department Stores,T.J. Maxx,brand_id
+sg:f6e4a52866b04e078ea11f4eea0dcc16,452210,Department Stores,Department Stores,T.J. Maxx,brand_id
+aggregated_4024_College,452210,Department Stores,Department Stores,Target,brand_id
+aggregated_40W,452210,Department Stores,Department Stores,Target,brand_id
+aggregated_517E,452210,Department Stores,Department Stores,Target,brand_id
+sg:084ab2c726784ab490b72144d44d4ee8,452210,Department Stores,Department Stores,Target,brand_id
+sg:1ac978d80ab84d4aa1d9f7148d1fafb8,452210,Department Stores,Department Stores,Target,brand_id
+sg:268ea7486c334ad8ad2d0e4e08f3ff9e,452210,Department Stores,Department Stores,Target,brand_id
+sg:3275834c58d241baacdb9965f5003af6,452210,Department Stores,Department Stores,Target,brand_id
+sg:4c2a6e828527407d863fc641eaa20ac3,452210,Department Stores,Department Stores,Target,brand_id
+sg:51c8d943ff72400ab86e7e8896f4b5af,452210,Department Stores,Department Stores,Target,brand_id
+sg:7a48b2cf2a904e9ebbdef801d0576c4d,452210,Department Stores,Department Stores,Target,brand_id
+sg:84898e686e71419b805d5212ae814111,452210,Department Stores,Department Stores,Target,brand_id
+sg:c843f07483c04a22960814f2d859ec04,452210,Department Stores,Department Stores,Target,brand_id
+sg:cffe77a3b2f543af9387cdc0a69cb0b8,452210,Department Stores,Department Stores,Target,brand_id
+sg:eb96ed984b274a57ae29762d73738d99,452210,Department Stores,Department Stores,Target,brand_id
+sg:f189f91419974d03a20257132d73da58,452210,Department Stores,Department Stores,Target,brand_id
+sg:02abff33ba734370ab34c784a630f241,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Costco Wholesale Corp.,brand_id
+sg:4648da5b52e64275af04e3e791f03e33,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Costco Wholesale Corp.,brand_id
+sg:a61e1c7be39f4294824e1bd68483fb03,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Costco Wholesale Corp.,brand_id
+sg:fea0697046444a639424021f7357fa0a,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Costco Wholesale Corp.,brand_id
+sg:00e39e94fa1a403d8314f5e251deb299,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:06c105c9b47546edb83bc6070ebec9e5,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:0750ee965608479ebd35ed29a3647802,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:0a5b4f042e5c44809fba0b8b263799b7,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:0a735ceaf7ad4fa9930388e66ef8515a,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:0d9fe727bf634df3b1f5c9f7460f75e4,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:0edae69520254b09b3180a4b1b92e486,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:14969ac1d3ef4330a50564ecd6e1aaa4,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:18232f8736da44e4b6d2fd69ca4bce19,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:1b84da99a0a545c99110a376a840293c,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:1e2da999c0ca40319f97f14b810712df,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:20b887c93c434d69b41c2db57591a9eb,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:233d5a3787614d2c8f9baf73ea5bc3e9,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:261725ec4b2544a8975a7a1e5ec20d65,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:270bb5a6503d4bbdb4e0e2947f0e979e,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:2765aed45c5641dd95a72ecea12ca569,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:2c13af823bf7415a8090affc4cdbcfee,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:347d929a3d56473882941cb0b5e9f01c,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:360ac3d7892f497f90fdf09e02684389,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:387ebe6362694ef6b044234ac03c83d9,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:3a4060c35bfc474a84d54b65e7a02921,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:3a732748a46745c5a7160c44918a749d,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:3a98413525ca4c7c951f55f909d88ae3,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:4217cdcdfa1a4bf7995658ea27daa03e,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:4354d7baafc144e0bbcfb7cf71291ab1,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:47100327f10749238b9411f96978c80b,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:50391f81826f4750b49669c5728c16dc,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:50b81f30e1f1469c923ce9f8a9b3dc53,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:50d199f06b9a4e71adcdff775a96b76a,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:58b249900f89411ea2a9add35d965111,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:5bb49882b89943a7916ae54a526eafb2,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:5d881feeaae5498782c99ea40400a61f,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:5ecf9f58c58e42f3be431114c06a8075,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:63771b7a35214344bd8da3f2fddca6c5,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:6d7641eaac474112b172e96f5fd81d40,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:71d024995ff946e1b9bb4a5535b59272,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:78b8260acbe0488db1ff710a6dc7a392,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:7b03f24744384489bd8219d542d2ee7f,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:7c6b01fda7c04a898f8b77b80367241e,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:818d45938511426b8862db60f3c24fb4,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:841565ed9f7c4eef839d020547afdeef,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:8660c270c5434538bf8fe7e2e85c15d0,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:8872e33244d647c0b58dbba7e0b78a3f,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:8cc7127dbb7d4aac81188f26c68477c6,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:8d9058a29b0648d9bb1b92bb13ba0301,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:9398e2c56ff84c5e9237c175be74431f,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:9a1339a9c7014409b442216a751c7f68,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:9c097976c6414444bfd79c42e54fbd79,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:9c41a1a1bcba4db4a9e11d2b962f6b9b,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:a1eb0e6f38994e40859b4bf5e9fc15d4,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:a245ea38dade47f89e964a9ffe282310,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:a4a922cc72fd4e0daa9379770fe00497,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:b1268d19f8b943f4ac6acf79f13146fa,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:b77ee98a911e493ca503f05eee1564ba,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:bc29b9a711c04045a3228d044a398ef6,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:bf843b09882a4c63aeacbe40489a410b,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:c38f81e7fe2b4b48a6e258824983b741,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:c9f3640ce69c41cdb53e193c306a1dc8,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:cb45cdbdfc3e476ab2fe56504b1182d7,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:cb8120759a5a45ee9152c6912bbe7dcc,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:cc0dd4d9bf6b467481c78729050f6a67,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:cc13bc704b1a482cae13c4ad8ecd2567,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:d105bf0eae3a46d19b3743147244f5c6,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:d1831762b70d41029db47f9333301875,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:d1cd0493872448b0b99214b9fe57b12c,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:daad1ee16aa744f49a6861787fb481b2,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:e4a45b8d770f47ce8b418f4241a71459,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:e7da57bc9dab467490b88ad810d9f456,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:e84f86e6feea4a98b00d1d0461bef5c7,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:ec8961ae058d42f684cc6bfe45e04aee,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:f17594ad862f4e1f983fcf49f0053e41,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:f26cda174a4c4e808398cc108ec3a565,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,brand_id
+sg:0156d4380d684d8dae668182ad77336d,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:01ee3a6c780a4e998e12a4960d3337b5,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:098221490c474e6cbc4ca8a2162f7170,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:10efeb7c06ac4940a3d4e996c0ce5476,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:187d4b6602c845c3bfede20a1deeb8d1,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:27cc31a6e5dd4537b432b046c6437756,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:29c79c88d17e4425b887362fa7d8ec6e,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:3021c5125db144b094763c74cd841eea,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:33b55498dcb342739de0421942bc8166,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:3a35bc5026144defa900241ca35d66f9,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:3f7eae4c4d2d4d0f846dc484d1fdbff6,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:3f8d237767dc4dda8c8ed80f0e7d359d,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:429f4ee166ff4523be060774d8354a8e,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:48ffced0ef214827b3c12bc14358a708,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:4e04d8f16bcd4949a5e7196351a23192,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:4e1b85602ba44dbea0782c771bff6f76,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:565c38744003455a827b3d519262f16d,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:57e815f282a143efab61b6521208d5b8,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:5c95598f27144749b561ff3184289fab,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:5dbc836023244c6699ef97103a64100d,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:6132a084ff434fc2af7519aa2584bed7,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:670f3d81cc5f44f5835954f0285f57af,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:6e8e5275469d4e7391180e06281ba7c6,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:6eb37e997f3e4ea68c4ffda26c95ebf2,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:728370e11af146f1811007f43cbda214,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:7f918943035149d8919971e47ebdb413,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:8a784002ad6d40af91273f3e9c0a8f48,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:8c3682f94b904ddaa314f80d95868539,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:8d376e7211074b6f8da481353e0a4627,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:90a04f3d29784b84ad73e55909e864f8,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:94b69491e8394408a41b4eaf79700a9a,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:960e0ec62d584e21a0ef5a8ed9da1347,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:96c45f70847746cebba519d17cc39eea,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:9a69cf7d67d540028b2f3e40d440e4b5,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:9dcc84edaf314d00abae543021508791,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:9eb8be9411e34838b8676d265c3dac8e,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:a27b2d3115fe4e5b9b9fc7aab7d2e1f0,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:a35f4c7a485b4b0884f71d609838533d,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:adaf2f1e2a3e41beb49f62416c9124d5,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:b261ab19c88f4f68bb8efd01f0bea507,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:b97dc59beab442a1833e4f2dbaf208f5,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:ba352b40d9a2463081b59c2536d2b782,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:be346878d5514402b7cd45b40caf1ea9,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:c0e2ef9a17a84bca88a19da71d33e38c,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:c97e4dae548b43139260d6d4baf9ef5b,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:cbf75ce056fb4f93873e3770f30d47fe,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:d311de11514c4dbb8f21fe34fdbd3490,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:d5b8814be80d4652992bce92c054459f,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:de4939b1c45441ca9fb98c50fe2be340,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:de8d60134ac940b69240e78bf29a50ab,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:e7aa5379ab47491580bc46b59073e80e,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:ede0c3b8b3a143848181ee2430390072,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:f310ba51c257496da0027ad563708bb4,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:f3f4e29cdc174e05a232d5a268a526eb,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:fcee52f5e49b4a02b4d161b6e12dfb4c,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:fe5e273c7b7f42e5b26636f524ac0b72,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,brand_id
+sg:1357d1d4e01c48c4b7f8da3484c7931f,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Five Below,brand_id
+sg:18e5fa546fc54b98a4dc678784ec5042,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Five Below,brand_id
+sg:6f47d9a09f454730b50efa86b1420da3,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Five Below,brand_id
+sg:75fae73155564561bb5d6be20e233570,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Five Below,brand_id
+sg:91bd9e7071f747eb9ae6e798886afb06,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Five Below,brand_id
+sg:a6125d66b02c4cb6bafb850ddfa7e5cf,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Five Below,brand_id
+sg:aa4f0aca9a404e0a832c3ef3182a4d40,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Five Below,brand_id
+sg:be186470ad2d40e2917b9033eebcb327,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Five Below,brand_id
+sg:d1f3127c4008430babdaa7913c7da999,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Five Below,brand_id
+sg:61f435ad4ce34557b2ee59619053a969,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Kmart,brand_id
+sg:aecf31a02fe5493ab2cb8acb3a58264a,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Kmart,brand_id
+sg:012fe39ba48c4d67ae07b4185e9d721f,452210,Department Stores,Department Stores,Barneys New York,place_id
+sg:35dfbe7d1e1b4d52b74de4017fe6609a,452210,Department Stores,Department Stores,Barneys New York,place_id
+sg:cb8584dfcd4d43b09657c11fd377b58d,452210,Department Stores,Department Stores,Barneys New York,place_id
+sg:eb0ebcaf8c8d43f0aeefb24b63dddcfd,452210,Department Stores,Department Stores,Barneys New York,place_id
+sg:f9818fd75c4c4d7cb1ee44c6cd2d7918,452210,Department Stores,Department Stores,Barneys New York,place_id
+sg:0a7e5fc799ee4cb2b5e9febdbbf2bb85,452210,Department Stores,Department Stores,Bloomingdale's,place_id
+sg:15682cf1eadb423297c1e634d13c0377,452210,Department Stores,Department Stores,Bloomingdale's,place_id
+sg:4e727f2cafb14cb3b40b62073a2e6545,452210,Department Stores,Department Stores,Bloomingdale's,place_id
+sg:7cb6b59799204a01a82dd14c39e672dc,452210,Department Stores,Department Stores,Bloomingdale's,place_id
+sg:95f0d20a1dd34b05a7c81ec4fec5efeb,452210,Department Stores,Department Stores,Bloomingdale's,place_id
+sg:e27fcc7514f34e4ba144859451c01780,452210,Department Stores,Department Stores,Bloomingdale's,place_id
+sg:e4019da3119b4ebfac7b8f9907d68d7c,452210,Department Stores,Department Stores,Bottega Veneta,place_id
+sg:1279a9e858864b6498b9c168e072ef64,452210,Department Stores,Department Stores,Hermès,place_id
+sg:2e8bc51920494516a0320d34e6b2bc44,452210,Department Stores,Department Stores,Hermès,place_id
+sg:7e7476590af643a4b89bdb2fe59464a6,452210,Department Stores,Department Stores,Hermès,place_id
+sg:be39843ac30e4c929f9707f4f14349ae,452210,Department Stores,Department Stores,Hermès,place_id
+sg:5aa2ec5e377c486ca69da4542b6e4307,452210,Department Stores,Department Stores,Lou & Grey,place_id
+sg:78948e77d30e426d90d4ae1998f336c0,452210,Department Stores,Department Stores,Macy's,place_id
+sg:84a8615ac25b455bb1d01ec4c93cdd1f,452210,Department Stores,Department Stores,Macy's,place_id
+sg:21870f3478e947c09c4e556b14b903c5,452210,Department Stores,Department Stores,Neiman Marcus,place_id
+sg:c4f25e2651334550b550e581c03e24e7,452210,Department Stores,Department Stores,Neiman Marcus,place_id
+sg:a15937b5adf141d891dd06a9c81347f6,452210,Department Stores,Department Stores,Saks Fifth Avenue,place_id
+sg:29f0f35f4b944165baccd9bf1b151659,452210,Department Stores,Department Stores,Saks Off Fifth,place_id
+sg:0835cf2d4cf242c9884c9dace819875d,452210,Department Stores,Department Stores,Sears Home Services,place_id
+sg:6595c93b6f0747e18277b55d4f5f4899,452210,Department Stores,Department Stores,Sears Home Services,place_id
+sg:1352876552e34698a24928ebf52f2681,452210,Department Stores,Department Stores,T.J. Maxx,place_id
+sg:6b1dab9cc5ca4a0cb652e3e9c4294a62,452210,Department Stores,Department Stores,T.J. Maxx,place_id
+sg:a8effc2b0add4b24b6711d1e16751d07,452210,Department Stores,Department Stores,T.J. Maxx,place_id
+sg:aa2b7c2e5945446dafd6d263779262f7,452210,Department Stores,Department Stores,T.J. Maxx,place_id
+sg:b200115f9d28436996e8db7376a6acfb,452210,Department Stores,Department Stores,T.J. Maxx,place_id
+sg:f323e0dea9d74549b867e5f2bbaf04b9,452210,Department Stores,Department Stores,T.J. Maxx,place_id
+sg:5fe86b949ad24e79b59672ae1b6d148d,452210,Department Stores,Department Stores,Target,place_id
+sg:81aae721ea114787a6e105b349eeb400,452210,Department Stores,Department Stores,Target,place_id
+sg:c7222887b3834a58a6bc40c168cdb38a,452210,Department Stores,Department Stores,Target,place_id
+sg:e2543bebe82742a1941c21660d9f4168,452210,Department Stores,Department Stores,Target,place_id
+sg:fd4bf1e165794ab99140ca0bb2d5e022,452210,Department Stores,Department Stores,Target,place_id
+sg:f4ada8c153e14fdc9d019433c2022611,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Amazon 4-Star,place_id
+sg:be15960aa019437f819888030a10c309,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Costco Wholesale Corp.,place_id
+sg:543c0a12cee5429cbd6418a51cffa2fa,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,place_id
+sg:8a661267f20b43a4bea8fd28bf20f9f1,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,place_id
+sg:d07befd8cc324b59b3183aa5dc091015,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,place_id
+sg:dccb7bd06b53430e9aa215f4e47623f8,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,place_id
+sg:dcef1702bffa47df9ff2ea7a2373bdbb,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Dollar Tree,place_id
+sg:29b14793c6a54fe69540bddefc24042e,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,place_id
+sg:9b3d30023931445b848b83c86ebf49b7,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Family Dollar Stores,place_id
+sg:edc2255fe940499eb00b73ae35d2d54e,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Five Below,place_id
+sg:6cc8e1a82a9b4673ba784ee896f76668,452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,Kmart,place_id
+sg:0031a04b56d64aecab115f342a98234b,,,,BJ's Wholesale Club,unresolved
+sg:30ee7a381cab4b7dbfc920039b17ab96,,,,BJ's Wholesale Club,unresolved
+sg:40c47fece0ba4897b01c7e28efb2731a,,,,BJ's Wholesale Club,unresolved
+sg:4cf36ccb35a1435886590e7ee8224528,,,,BJ's Wholesale Club,unresolved
+sg:5f075b645f9949df877f69a2e6932d4b,,,,BJ's Wholesale Club,unresolved
+sg:692ee5d609da476796678b67cf482fb4,,,,BJ's Wholesale Club,unresolved
+sg:7bf321e231b74c2f8e5a83727daca049,,,,BJ's Wholesale Club,unresolved
+sg:e6e5080a57e84c428e31e7b08c28d9f1,,,,BJ's Wholesale Club,unresolved
+sg:1b394074dc2e43248068041081ed1b67,,,,DAISO,unresolved
+sg:035be132cf814e4abe4f5aab1ed2d201,,,,Dollar General,unresolved
+sg:05d8d7de8ba34af28286a0008c550997,,,,Dollar General,unresolved
+sg:2400edf8b8f44173889028682a24437e,,,,Dollar General,unresolved
+sg:274ad0a179144159a405b2e719e2f419,,,,Dollar General,unresolved
+sg:2d4690e13d08491e87d2d4bc43b72545,,,,Dollar General,unresolved
+sg:30b259e38b214887977bb56b1c349d65,,,,Dollar General,unresolved
+sg:36d79cd3ffea42b3b6f08bb855cb5b22,,,,Dollar General,unresolved
+sg:4d02f1a259d944a28322691f7dd0bb48,,,,Dollar General,unresolved
+sg:4d7627ff7c0d45acb312c36be5876b14,,,,Dollar General,unresolved
+sg:51e543c9fb2c41cfa7d507b04eeacdfc,,,,Dollar General,unresolved
+sg:5c879da6023b473b90fab576b9e378ac,,,,Dollar General,unresolved
+sg:66743749a16a40ed9801e23d2b52798b,,,,Dollar General,unresolved
+sg:72d50c66157348ad9fa3c8c939c147b1,,,,Dollar General,unresolved
+sg:7b31b0b4830548de85d5d4c76f90d248,,,,Dollar General,unresolved
+sg:7de15545dcb3484696b8204cbc65a7d2,,,,Dollar General,unresolved
+sg:86cd2f7a19d843ac91c0ead93dadb2c1,,,,Dollar General,unresolved
+sg:9a46a590679248f7840df28ec409e7ae,,,,Dollar General,unresolved
+sg:ababb29b151f4808a4c1725ec9e6bf46,,,,Dollar General,unresolved
+sg:aeb02f80495549a0aa967b8695a733a2,,,,Dollar General,unresolved
+sg:cc405d4661ac490dbfc79326fe910b71,,,,Dollar General,unresolved
+sg:cca41e118c6042c89d6ba3f478f91f76,,,,Dollar General,unresolved
+sg:da137434b33745c1a82077710bc7c14d,,,,Dollar General,unresolved
+sg:e6b42f5a02fd472c80aad9760b14ac66,,,,Dollar General,unresolved
+sg:ee689ef00a624f55be33fa1d67355ddd,,,,Dollar General,unresolved
+sg:f176ee37e8c447838897bf9e4cae8f11,,,,Dollar General,unresolved
+sg:f51c84ff03e942c79e0fbf6e77caf930,,,,Dollar General,unresolved
+sg:287a466b3edd42c18e018c7022c1914f,,,,Kohl's,unresolved
+sg:2e1dfaeb69074f8cb0cf20ec869a598b,,,,Kohl's,unresolved
+sg:2fdcaa9c5b9a4729a8db85ce508d3fd1,,,,Kohl's,unresolved
+sg:07fafdb3637c46e88d42a8fc2dce529a,,,,Sears,unresolved
+sg:9bbf6c92e7cf4768a8cfdccab7bfb693,,,,Sears,unresolved

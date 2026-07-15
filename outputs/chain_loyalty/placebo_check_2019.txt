@@ -1,0 +1,36 @@
+====================================================================================
+ITEM 4 — PLACEBO CHECK: LAGGED-2019 vs UNLAGGED-2019 (fit to true 2019 visits)
+Rationale: 2018->2019 showed no significant parameter shift in the main analysis, so
+substituting 2018 loyalty for 2019 loyalty should barely move the calibrated parameters
+if the lagging procedure introduces no distortion. Flag threshold: |%diff| > 15%.
+====================================================================================
+
+Samples: pooled n=5502 | 452210 n=448 | 452319 n=450
+
+%diff = (lagged - unlagged)/unlagged * 100
+
+Parameter                Sample    Unlagged2019   Lagged2019     %diff   flag
+-----------------------------------------------------------------------------
+Store area               pooled          4.2654       4.4474     4.27% 
+Chain loyalty            pooled          6.4996       6.3288    -2.63% 
+POI count                pooled          3.8277       3.8520     0.64% 
+POI diversity            pooled          6.7419       6.8306     1.32% 
+Demographic similarity   pooled          7.6131       7.6753     0.82% 
+Distance                 pooled         10.6849      10.8295     1.35% 
+
+Store area               452210          4.3677       4.1951    -3.95% 
+Chain loyalty            452210          7.1395       6.6635    -6.67% 
+POI count                452210          3.4076       3.5059     2.88% 
+POI diversity            452210          7.0892       7.3782     4.08% 
+Demographic similarity   452210          7.8643       7.7572    -1.36% 
+Distance                 452210         10.9135      10.8844    -0.27% 
+
+Store area               452319          5.6470       5.8258     3.17% 
+Chain loyalty            452319          7.7368       7.5598    -2.29% 
+POI count                452319          3.6785       4.0098     9.01% 
+POI diversity            452319          6.5172       6.4790    -0.59% 
+Demographic similarity   452319          7.4362       7.5062     0.94% 
+Distance                 452319         10.4610      10.6049     1.38% 
+
+SUMMARY:
+  No parameter in any sample exceeds the 15% threshold. Lagging introduces no material distortion.

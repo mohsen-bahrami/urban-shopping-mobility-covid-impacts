@@ -1,0 +1,180 @@
+============================================================================================
+ITEM 5 — PSO ESTIMATOR STABILITY / UNCERTAINTY QUANTIFICATION
+STEP 0: seeding reproducibility CONFIRMED (np.random.seed(0)+fresh PSO -> identical).
+PSO: GlobalBestPSO n_particles=20 dims=6 c1=c2=1.5 w=0.9 iters=10 bounds=[1,28]
+Sample: 300 CBGs (borough x income-quintile stratified, seed=123); 10 seeds x 4 yrs = 12000 PSO runs.
+============================================================================================
+
+##### STEP 1 — stratified sample: pool=5502 -> sampled=300 #####
+
+  by borough:
+               pool_n  pool_%  sample_n  sample_%
+borough                                          
+Bronx            1018    18.5        56      18.7
+Brooklyn         1822    33.1       100      33.3
+Manhattan         862    15.7        47      15.7
+Queens           1558    28.3        84      28.0
+Staten Island     242     4.4        13       4.3
+
+  by quintile:
+          pool_n  pool_%  sample_n  sample_%
+quintile                                    
+Q1          1101    20.0        60      20.0
+Q2          1100    20.0        59      19.7
+Q3          1101    20.0        60      20.0
+Q4          1100    20.0        61      20.3
+Q5          1100    20.0        60      20.0
+
+  joint borough x quintile (sample_n / pool_n):
+quintile           Q1      Q2      Q3      Q4      Q5
+borough                                              
+Bronx          27/488  13/242   7/128   6/103    3/57
+Brooklyn       17/307  26/483  24/435  18/321  15/276
+Manhattan      10/186   6/118    4/77   6/102  21/379
+Queens           5/97  13/242  23/429  27/499  16/291
+Staten Island    1/23    1/15    2/32    4/75    5/97
+
+##### STEP 2 — running PSO (12000 runs), incremental -> /Users/mohsenbahrami/Desktop/frontiers_repo/outputs/item5_pso_stability/all_seed_runs.csv #####
+  (resuming: 0 runs already present)
+    [2018] 25/300 CBGs done (250 new runs, 3.4s elapsed)
+    [2018] 50/300 CBGs done (500 new runs, 5.4s elapsed)
+    [2018] 75/300 CBGs done (750 new runs, 7.4s elapsed)
+    [2018] 100/300 CBGs done (1000 new runs, 9.4s elapsed)
+    [2018] 125/300 CBGs done (1250 new runs, 11.3s elapsed)
+    [2018] 150/300 CBGs done (1500 new runs, 13.3s elapsed)
+    [2018] 175/300 CBGs done (1750 new runs, 15.2s elapsed)
+    [2018] 200/300 CBGs done (2000 new runs, 17.2s elapsed)
+    [2018] 225/300 CBGs done (2250 new runs, 19.1s elapsed)
+    [2018] 250/300 CBGs done (2500 new runs, 21.1s elapsed)
+    [2018] 275/300 CBGs done (2750 new runs, 23.1s elapsed)
+    [2018] 300/300 CBGs done (3000 new runs, 25.0s elapsed)
+    [2018] COMPLETE (300 CBGs)
+    [2019] 25/300 CBGs done (3250 new runs, 28.3s elapsed)
+    [2019] 50/300 CBGs done (3500 new runs, 30.3s elapsed)
+    [2019] 75/300 CBGs done (3750 new runs, 32.3s elapsed)
+    [2019] 100/300 CBGs done (4000 new runs, 34.2s elapsed)
+    [2019] 125/300 CBGs done (4250 new runs, 36.2s elapsed)
+    [2019] 150/300 CBGs done (4500 new runs, 38.2s elapsed)
+    [2019] 175/300 CBGs done (4750 new runs, 40.1s elapsed)
+    [2019] 200/300 CBGs done (5000 new runs, 42.1s elapsed)
+    [2019] 225/300 CBGs done (5250 new runs, 44.1s elapsed)
+    [2019] 250/300 CBGs done (5500 new runs, 46.1s elapsed)
+    [2019] 275/300 CBGs done (5750 new runs, 48.0s elapsed)
+    [2019] 300/300 CBGs done (6000 new runs, 50.0s elapsed)
+    [2019] COMPLETE (300 CBGs)
+    [2020] 25/300 CBGs done (6250 new runs, 53.3s elapsed)
+    [2020] 50/300 CBGs done (6500 new runs, 55.3s elapsed)
+    [2020] 75/300 CBGs done (6750 new runs, 57.2s elapsed)
+    [2020] 100/300 CBGs done (7000 new runs, 59.2s elapsed)
+    [2020] 125/300 CBGs done (7250 new runs, 61.2s elapsed)
+    [2020] 150/300 CBGs done (7500 new runs, 63.2s elapsed)
+    [2020] 175/300 CBGs done (7750 new runs, 65.1s elapsed)
+    [2020] 200/300 CBGs done (8000 new runs, 67.1s elapsed)
+    [2020] 225/300 CBGs done (8250 new runs, 69.1s elapsed)
+    [2020] 250/300 CBGs done (8500 new runs, 71.1s elapsed)
+    [2020] 275/300 CBGs done (8750 new runs, 73.1s elapsed)
+    [2020] 300/300 CBGs done (9000 new runs, 75.1s elapsed)
+    [2020] COMPLETE (300 CBGs)
+    [2021] 25/300 CBGs done (9250 new runs, 78.3s elapsed)
+    [2021] 50/300 CBGs done (9500 new runs, 80.3s elapsed)
+    [2021] 75/300 CBGs done (9750 new runs, 82.3s elapsed)
+    [2021] 100/300 CBGs done (10000 new runs, 84.3s elapsed)
+    [2021] 125/300 CBGs done (10250 new runs, 86.2s elapsed)
+    [2021] 150/300 CBGs done (10500 new runs, 88.2s elapsed)
+    [2021] 175/300 CBGs done (10750 new runs, 90.2s elapsed)
+    [2021] 200/300 CBGs done (11000 new runs, 92.1s elapsed)
+    [2021] 225/300 CBGs done (11250 new runs, 94.1s elapsed)
+    [2021] 250/300 CBGs done (11500 new runs, 96.1s elapsed)
+    [2021] 275/300 CBGs done (11750 new runs, 98.0s elapsed)
+    [2021] 300/300 CBGs done (12000 new runs, 100.0s elapsed)
+    [2021] COMPLETE (300 CBGs)
+  ALL RUNS DONE: 12000 new runs in 100.0s
+
+
+##### STEP 3 — per-(cbg,year) stability: median CV across 300 CBGs (per param per year) #####
+  CV = std/|mean| across the 10 seeds, computed per (cbg,year), then median over CBGs.
+      Store area  Chain loyalty  POI count  POI diversity  Demographic similarity  Distance
+year                                                                                       
+2018      0.4757         0.4782     0.5286         0.5556                  0.5069    0.2706
+2019      0.4836         0.4829     0.5321         0.5394                  0.5172    0.2637
+2020      0.3742         0.3154     0.5069         0.5057                  0.5099    0.3465
+2021      0.3487         0.3124     0.4903         0.5083                  0.5180    0.4508
+
+
+##### STEP 4 — population-level stability (mean param across 300 CBGs, per seed) #####
+  For each seed: mean param over 300 CBGs per year -> %change. Then summary across 10 seeds.
+
+  %change 2019->2020 across the 10 seeds:
+    Parameter                     mean       std       min       max
+    Store area                  68.15%    14.04%    42.86%    88.07%
+    Chain loyalty               29.86%    11.82%     7.29%    46.86%
+    POI count                   24.87%    10.20%     8.63%    39.88%
+    POI diversity               11.18%     6.82%    -1.16%    18.25%
+    Demographic similarity       2.77%     6.28%    -4.12%    16.41%
+    Distance                   -23.61%     3.49%   -28.72%   -18.90%
+
+  %change 2019->2021 across the 10 seeds:
+    Parameter                     mean       std       min       max
+    Store area                  78.44%    17.98%    46.28%   109.99%
+    Chain loyalty               35.19%    12.43%    14.55%    58.66%
+    POI count                   52.60%    12.67%    29.72%    69.34%
+    POI diversity               12.36%    11.71%    -7.19%    27.16%
+    Demographic similarity      -0.36%     9.53%   -10.72%    24.08%
+    Distance                   -35.18%     3.98%   -42.86%   -29.61%
+
+
+##### STEP 5 — cross-CBG pairwise Pearson r between the 10 seeds (per param per year) #####
+    year   Parameter                 mean_pairwise_r   min_pairwise_r
+    2018   Store area                         0.4940           0.3698
+    2018   Chain loyalty                      0.4097           0.3204
+    2018   POI count                          0.3783           0.2299
+    2018   POI diversity                      0.1642           0.0840
+    2018   Demographic similarity             0.1097          -0.0203
+    2018   Distance                           0.3095           0.1694
+    2019   Store area                         0.4883           0.3968
+    2019   Chain loyalty                      0.3958           0.2941
+    2019   POI count                          0.3545           0.2545
+    2019   POI diversity                      0.1646           0.0633
+    2019   Demographic similarity             0.0847          -0.0720
+    2019   Distance                           0.3308           0.1590
+    2020   Store area                         0.6068           0.5426
+    2020   Chain loyalty                      0.5843           0.4670
+    2020   POI count                          0.5968           0.5166
+    2020   POI diversity                      0.2870           0.1829
+    2020   Demographic similarity             0.0306          -0.1015
+    2020   Distance                           0.5868           0.4742
+    2021   Store area                         0.6574           0.5691
+    2021   Chain loyalty                      0.4959           0.3635
+    2021   POI count                          0.7100           0.6363
+    2021   POI diversity                      0.3343           0.2471
+    2021   Demographic similarity             0.1069          -0.0084
+    2021   Distance                           0.6377           0.5660
+
+
+##### STEP 6 — directional agreement across 10 seeds #####
+
+  2019->2020: # of 10 seeds agreeing with majority sign (per param):
+    Store area               10/10 agree (majority +)
+    Chain loyalty            10/10 agree (majority +)
+    POI count                10/10 agree (majority +)
+    POI diversity            8/10 agree (majority +)
+    Demographic similarity   5/10 agree (majority +)
+    Distance                 10/10 agree (majority -)
+
+  2019->2021: # of 10 seeds agreeing with majority sign (per param):
+    Store area               10/10 agree (majority +)
+    Chain loyalty            10/10 agree (majority +)
+    POI count                10/10 agree (majority +)
+    POI diversity            8/10 agree (majority +)
+    Demographic similarity   6/10 agree (majority -)
+    Distance                 10/10 agree (majority -)
+
+
+##### STEP 7 — median CBG-level fit (avg across seeds) vs original full-sample fit #####
+    year     stability median fit    orig full-sample mean fit    orig median fit
+    2018                   0.7231                       0.6858             0.7442
+    2019                   0.7440                       0.6938             0.7478
+    2020                   0.1712                       0.2316             0.1699
+    2021                   0.1496                       0.1647             0.1419
+
+##### DONE — Item 5 complete. #####

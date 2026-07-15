@@ -1,0 +1,137 @@
+==============================================================================================
+ITEM 4 — CHAIN-LOYALTY ROBUSTNESS: Stage 1 mechanical-concentration diagnostics
+Pure descriptive aggregation from table_2018-2021.csv (NO PSO).
+==============================================================================================
+
+##### STEP 1 — store_category_mapping.csv #####
+  dept-store (452210) stores: 88 | general-merchandise (452319) stores: 154 | unresolved excluded: 40
+
+==============================================================================================
+VERSION: POOLED
+==============================================================================================
+
+  Per-year summary (mean & median across CBGs):
+
+   [mean]
+      n_cbg  total_visits  n_stores_visited  n_chains_visited  chain_entropy  chain_HHI  top_brand_share
+year                                                                                                    
+2018   5502      298.0614           23.9020           10.5880         1.9263     0.1971           0.3178
+2019   5502      353.6003           25.0969           10.7445         1.9188     0.1984           0.3186
+2020   5502      275.5278           46.0369           12.2048         2.0244     0.1829           0.2999
+2021   5502      121.1227           24.2139            8.6096         1.7292     0.2462           0.3570
+
+   [median]
+      n_cbg  total_visits  n_stores_visited  n_chains_visited  chain_entropy  chain_HHI  top_brand_share
+year                                                                                                    
+2018   5502         230.0              23.0              11.0         1.9726     0.1747           0.2917
+2019   5502         264.0              24.0              11.0         1.9731     0.1762           0.2932
+2020   5502         197.0              40.0              13.0         2.1203     0.1586           0.2809
+2021   5502          77.0              18.0               8.0         1.8689     0.1942           0.3200
+
+  % change in MEAN across CBGs:
+    metric                   2019->2020     2019->2021     2020->2021
+    total_visits                -22.08%        -65.75%        -56.04%
+    n_stores_visited             83.44%         -3.52%        -47.40%
+    n_chains_visited             13.59%        -19.87%        -29.46%
+    chain_entropy                 5.50%         -9.88%        -14.58%
+    chain_HHI                    -7.77%         24.13%         34.60%
+    top_brand_share              -5.88%         12.05%         19.04%
+
+==============================================================================================
+VERSION: DEPARTMENT (452210)
+(CBG-years with zero visits to this format are excluded, not zeroed)
+==============================================================================================
+
+  Per-year summary (mean & median across CBGs):
+
+   [mean]
+      n_cbg  total_visits  n_stores_visited  n_chains_visited  chain_entropy  chain_HHI  top_brand_share
+year                                                                                                    
+2018   5496      130.7962           10.5377            5.1594         1.3044     0.3348           0.4555
+2019   5498      158.1000           10.9069            5.2050         1.2804     0.3448           0.4664
+2020   5392       82.3286           14.2995            6.0953         1.4877     0.2893           0.3918
+2021   5069       36.0221            7.3010            4.1470         1.1422     0.4071           0.4855
+
+   [median]
+      n_cbg  total_visits  n_stores_visited  n_chains_visited  chain_entropy  chain_HHI  top_brand_share
+year                                                                                                    
+2018   5496          97.0              10.0               5.0         1.3421     0.3062           0.4297
+2019   5498         111.0              11.0               5.0         1.3250     0.3165           0.4410
+2020   5392          61.0              12.0               6.0         1.6052     0.2356           0.3478
+2021   5069          24.0               5.0               4.0         1.2770     0.3125           0.4082
+
+  % change in MEAN across CBGs:
+    metric                   2019->2020     2019->2021     2020->2021
+    total_visits                -47.93%        -77.22%        -56.25%
+    n_stores_visited             31.11%        -33.06%        -48.94%
+    n_chains_visited             17.11%        -20.33%        -31.96%
+    chain_entropy                16.18%        -10.80%        -23.22%
+    chain_HHI                   -16.09%         18.07%         40.71%
+    top_brand_share             -15.98%          4.10%         23.90%
+
+==============================================================================================
+VERSION: GENERAL MERCHANDISE (452319)
+(CBG-years with zero visits to this format are excluded, not zeroed)
+==============================================================================================
+
+  Per-year summary (mean & median across CBGs):
+
+   [mean]
+      n_cbg  total_visits  n_stores_visited  n_chains_visited  chain_entropy  chain_HHI  top_brand_share
+year                                                                                                    
+2018   5442      115.3140            9.9210            3.3284         0.8664     0.5043           0.6163
+2019   5446      134.9886           10.5898            3.3768         0.8667     0.5042           0.6188
+2020   5464      150.8737           25.0867            3.8781         0.9962     0.4366           0.5450
+2021   5390       69.5011           13.8855            3.0705         0.8412     0.5003           0.5913
+
+   [median]
+      n_cbg  total_visits  n_stores_visited  n_chains_visited  chain_entropy  chain_HHI  top_brand_share
+year                                                                                                    
+2018   5442          81.0               9.0               3.0         0.9093     0.4716           0.5976
+2019   5446          94.0               9.0               4.0         0.9090     0.4710           0.6000
+2020   5464         104.0              21.0               4.0         1.0397     0.4118           0.5238
+2021   5390          44.0              10.0               3.0         0.9286     0.4438           0.5429
+
+  % change in MEAN across CBGs:
+    metric                   2019->2020     2019->2021     2020->2021
+    total_visits                 11.77%        -48.51%        -53.93%
+    n_stores_visited            136.90%         31.12%        -44.65%
+    n_chains_visited             14.85%         -9.07%        -20.82%
+    chain_entropy                14.94%         -2.95%        -15.56%
+    chain_HHI                   -13.41%         -0.79%         14.57%
+    top_brand_share             -11.92%         -4.44%          8.49%
+
+==============================================================================================
+STEP 5 — MECHANICAL-CONCENTRATION CORRELATION TESTS (CBG-level Pearson r)
+==============================================================================================
+(a) change(total_visits) vs change(top_brand_share)
+(b) change(n_chains_visited) vs change(top_brand_share)
+A strong NEGATIVE (b) => fewer chains visited mechanically inflates concentration (supports reviewer).
+A weak (b) => argues against mechanical inflation.
+
+
+  --- POOLED ---
+    2019->2020 (n=5502 CBGs in both years):
+        (a) r[ Δtotal_visits , Δtop_brand_share ] = -0.0154  (n=5502)
+        (b) r[ Δn_chains_visited , Δtop_brand_share ] = -0.2927  (n=5502)
+    2019->2021 (n=5502 CBGs in both years):
+        (a) r[ Δtotal_visits , Δtop_brand_share ] = +0.1666  (n=5502)
+        (b) r[ Δn_chains_visited , Δtop_brand_share ] = -0.4362  (n=5502)
+
+  --- DEPARTMENT (452210) ---
+    2019->2020 (n=5390 CBGs in both years):
+        (a) r[ Δtotal_visits , Δtop_brand_share ] = +0.0374  (n=5390)
+        (b) r[ Δn_chains_visited , Δtop_brand_share ] = -0.5104  (n=5390)
+    2019->2021 (n=5067 CBGs in both years):
+        (a) r[ Δtotal_visits , Δtop_brand_share ] = +0.2035  (n=5067)
+        (b) r[ Δn_chains_visited , Δtop_brand_share ] = -0.6131  (n=5067)
+
+  --- GENERAL MERCHANDISE (452319) ---
+    2019->2020 (n=5414 CBGs in both years):
+        (a) r[ Δtotal_visits , Δtop_brand_share ] = +0.0318  (n=5414)
+        (b) r[ Δn_chains_visited , Δtop_brand_share ] = -0.5247  (n=5414)
+    2019->2021 (n=5347 CBGs in both years):
+        (a) r[ Δtotal_visits , Δtop_brand_share ] = +0.1037  (n=5347)
+        (b) r[ Δn_chains_visited , Δtop_brand_share ] = -0.5666  (n=5347)
+
+##### DONE — Stage 1 diagnostics complete (no PSO). #####

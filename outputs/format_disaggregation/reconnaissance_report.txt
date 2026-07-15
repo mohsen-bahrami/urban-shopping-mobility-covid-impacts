@@ -1,0 +1,274 @@
+==========================================================================================
+RECONNAISSANCE REPORT — item3 format disaggregation
+Generated for robustness check. Diagnostic only; no external lookups, no fabricated NAICS.
+==========================================================================================
+
+
+##### STEP 1 — pois_nyc.csv #####
+Shape: (66432, 23)
+
+Columns & dtypes:
+   Unnamed: 0               int64
+   placekey                 object
+   parent_placekey          object
+   location_name            object
+   safegraph_brand_ids      object
+   brands                   object
+   top_category             object
+   sub_category             object
+   naics_code               int64
+   latitude                 float64
+   longitude                float64
+   street_address           object
+   city                     object
+   region                   object
+   postal_code              int64
+   iso_country_code         object
+   phone_number             float64
+   open_hours               object
+   category_tags            object
+   opened_on                object
+   closed_on                object
+   tracking_closed_since    object
+   geometry_type            object
+
+First 5 rows (full, transposed for legibility):
+                                                       0                                                                                                                                                                                                                                                 1                                           2                                      3                                                                                                                                                                                                                            4
+Unnamed: 0                                             1                                                                                                                                                                                                                                                 2                                           3                                      4                                                                                                                                                                                                                            5
+placekey                             236-222@627-s8q-skf                                                                                                                                                                                                                               222-222@627-wbv-9xq                         229-222@627-s8r-m49                    22k-222@627-s8j-cqz                                                                                                                                                                                                          22b-22m@627-s8j-33q
+parent_placekey                      224-22f@627-s8q-skf                                                                                                                                                                                                                                               NaN                                         NaN                                    NaN                                                                                                                                                                                                                          NaN
+location_name                       Jewish Communal Fund                                                                                                                                                                                                                                  Underwest Donuts                           Lexington Luggage                                 Bar 13                                                                                                                                                                                             Fedex Office Print & Ship Center
+safegraph_brand_ids                                  NaN                                                                                                                                                                                                                                               NaN                                         NaN                                    NaN                                                                                                                                                                                                    SG_BRAND_51f62da8d76022e2
+brands                                               NaN                                                                                                                                                                                                                                               NaN                                         NaN                                    NaN                                                                                                                                                                                                                        FedEx
+top_category               Other Schools and Instruction                                                                                                                                                                                                               Restaurants and Other Eating Places  Jewelry, Luggage, and Leather Goods Stores  Drinking Places (Alcoholic Beverages)                                                                                                                                                                                       Couriers and Express Delivery Services
+sub_category           Sports and Recreation Instruction                                                                                                                                                                                                              Snack and Nonalcoholic Beverage Bars            Luggage and Leather Goods Stores  Drinking Places (Alcoholic Beverages)                                                                                                                                                                                       Couriers and Express Delivery Services
+naics_code                                        611620                                                                                                                                                                                                                                            722515                                      448320                                 722410                                                                                                                                                                                                                       492110
+latitude                                       40.761801                                                                                                                                                                                                                                         40.764498                                   40.763759                              40.735964                                                                                                                                                                                                                    40.734613
+longitude                                     -73.972134                                                                                                                                                                                                                                        -73.998086                                  -73.966879                             -73.996057                                                                                                                                                                                                                   -73.989663
+street_address                   575 Madison Ave Ste 703                                                                                                                                                                                                                                     638 W 47th St                           793 Lexington Ave                           35 W 13th St                                                                                                                                                                                                                10 Union Sq E
+city                                            New York                                                                                                                                                                                                                                          New York                                    New York                               New York                                                                                                                                                                                                                     New York
+region                                                NY                                                                                                                                                                                                                                                NY                                          NY                                     NY                                                                                                                                                                                                                           NY
+postal_code                                        10022                                                                                                                                                                                                                                             10036                                       10065                                  10003                                                                                                                                                                                                                        10003
+iso_country_code                                      US                                                                                                                                                                                                                                                US                                          US                                     US                                                                                                                                                                                                                           US
+phone_number                               12127528277.0                                                                                                                                                                                                                                     12123172359.0                               12122230698.0                          12129796677.0                                                                                                                                                                                                                12123533860.0
+open_hours                                           NaN  { ""Mon"": [[""7:00"", ""15:00""]], ""Tue"": [[""7:00"", ""17:00""]], ""Wed"": [[""7:00"", ""17:00""]], ""Thu"": [[""7:00"", ""17:00""]], ""Fri"": [[""7:00"", ""17:00""]], ""Sat"": [[""7:30"", ""17:00""]], ""Sun"": [[""7:30"", ""15:00""]] }                                         NaN                                    NaN  { ""Mon"": [[""8:00"", ""20:00""]], ""Tue"": [[""8:00"", ""20:00""]], ""Wed"": [[""8:00"", ""20:00""]], ""Thu"": [[""8:00"", ""20:00""]], ""Fri"": [[""8:00"", ""20:00""]], ""Sat"": [[""9:00"", ""18:00""]], ""Sun"": [] }
+category_tags                                        NaN                                                                                                                                                                                                                                        Donut Shop                                         NaN  Bar or Pub,Cocktail Lounge,Late Night                                                                                                                                                                                                                          NaN
+opened_on                                            NaN                                                                                                                                                                                                                                               NaN                                         NaN                                    NaN                                                                                                                                                                                                                          NaN
+closed_on                                            NaN                                                                                                                                                                                                                                           2020-01                                         NaN                                    NaN                                                                                                                                                                                                                          NaN
+tracking_closed_since                            2019-07                                                                                                                                                                                                                                           2019-07                                     2019-07                                2019-07                                                                                                                                                                                                                      2019-07
+geometry_type                                    POLYGON                                                                                                                                                                                                                                           POLYGON                                     POLYGON                                POLYGON                                                                                                                                                                                                                      POLYGON
+
+
+##### STEP 2 — table_2018.csv #####
+Shape: (1551564, 20)
+
+Columns & dtypes:
+   index                                  int64
+   Unnamed: 0                             int64
+   A_cbg                                  int64
+   B_store                                object
+   C_Percentage_of_Visits_2018            float64
+   D_Number_of_Visits_2018                int64
+   E_Population_in_this_cbg               int64
+   F_Population_where_store_is            int64
+   G_Distance_between_cbg_and_store       float64
+   H_Area_of_store                        int64
+   I_Includes_parking_lot                 float64
+   J_POI_count_where_store_is             int64
+   K_POI_diversity_where_store_is         float64
+   L_Demographic_similarity               float64
+   M_Median_Income_in_this_cbg            float64
+   N_Median_Income_where_store_is         float64
+   O_Brand_name                           object
+   P_safegraph_brand_id                   object
+   Q_Number_of_Visits_by_brand_2018       int64
+   R_Percentage_of_Visits_by_brand_2018   float64
+
+First 5 rows (full, transposed):
+                                                                              0                                          1                                          2                                          3                                          4
+index                                                                         0                                          1                                          2                                          3                                          4
+Unnamed: 0                                                                    0                                          1                                          2                                          3                                          4
+A_cbg                                                              360810140001                               360810140001                               360810140001                               360810140001                               360810140001
+B_store                                     sg:51c8d943ff72400ab86e7e8896f4b5af        sg:f189f91419974d03a20257132d73da58        sg:c7222887b3834a58a6bc40c168cdb38a        sg:e2543bebe82742a1941c21660d9f4168        sg:3275834c58d241baacdb9965f5003af6
+C_Percentage_of_Visits_2018                                                 0.0                                   0.044776                                        0.0                                        0.0                                        0.0
+D_Number_of_Visits_2018                                                       0                                         12                                          0                                          0                                          0
+E_Population_in_this_cbg                                                   2187                                       2187                                       2187                                       2187                                       2187
+F_Population_where_store_is                                                 287                                       1348                                       1280                                       1796                                        163
+G_Distance_between_cbg_and_store                                       9.780264                                   4.111893                                   8.292913                                   8.162305                                   8.393494
+H_Area_of_store                                                          135702                                     149385                                       3678                                      30554                                       6135
+I_Includes_parking_lot                                                      0.0                                        1.0                                        0.0                                        0.0                                        1.0
+J_POI_count_where_store_is                                                   72                                         69                                          6                                         39                                         39
+K_POI_diversity_where_store_is                                         3.083034                                   2.781085                                    1.56071                                   2.724921                                   2.929817
+L_Demographic_similarity                                                    1.0                                        1.0                                   0.000379                                        1.0                                        1.0
+M_Median_Income_in_this_cbg                                             69750.0                                    69750.0                                    69750.0                                    69750.0                                    69750.0
+N_Median_Income_where_store_is                                          36006.0                                    80663.0                                        0.0                                    75547.0                                        0.0
+O_Brand_name                                                             Target                                     Target                                     Target                                     Target                                     Target
+P_safegraph_brand_id                  SG_BRAND_42aefbae01d2dfd981f7da7d823d689e  SG_BRAND_42aefbae01d2dfd981f7da7d823d689e  SG_BRAND_42aefbae01d2dfd981f7da7d823d689e  SG_BRAND_42aefbae01d2dfd981f7da7d823d689e  SG_BRAND_42aefbae01d2dfd981f7da7d823d689e
+Q_Number_of_Visits_by_brand_2018                                             24                                         24                                         24                                         24                                         24
+R_Percentage_of_Visits_by_brand_2018                                   0.089552                                   0.089552                                   0.089552                                   0.089552                                   0.089552
+
+
+##### STEP 3 — store identifier column in table_2018.csv #####
+Store identifier column: 'B_store'
+10 sample values:
+    sg:51c8d943ff72400ab86e7e8896f4b5af
+    sg:f189f91419974d03a20257132d73da58
+    sg:c7222887b3834a58a6bc40c168cdb38a
+    sg:e2543bebe82742a1941c21660d9f4168
+    sg:3275834c58d241baacdb9965f5003af6
+    sg:81aae721ea114787a6e105b349eeb400
+    sg:cffe77a3b2f543af9387cdc0a69cb0b8
+    sg:4c2a6e828527407d863fc641eaa20ac3
+    sg:084ab2c726784ab490b72144d44d4ee8
+    sg:268ea7486c334ad8ad2d0e4e08f3ff9e
+
+Format verdict: values look like SafeGraph safegraph_place_id ('sg:' + 32 hex chars).
+   rows starting 'sg:'                    : 1535058 of 1551564
+   rows matching placekey pattern xxx-xxx@ : 0 of 1551564
+   unique stores: 282; NON-sg unique ids (3): ['aggregated_517E', 'aggregated_4024_College', 'aggregated_40W']
+   => It is a safegraph_place_id, NOT a placekey. (3 aggregated_* pseudo-ids exist.)
+
+
+##### STEP 4 — candidate identifier columns in pois_nyc.csv #####
+
+Column 'placekey' — 10 sample values:
+    236-222@627-s8q-skf
+    222-222@627-wbv-9xq
+    229-222@627-s8r-m49
+    22k-222@627-s8j-cqz
+    22b-22m@627-s8j-33q
+    22w-223@627-wbn-m6k
+    229-222@627-wc7-mp9
+    236-222@627-s8r-9vf
+    zzw-22n@627-s4s-zpv
+    zzy-222@627-s8r-y35
+
+Column 'parent_placekey' — 10 sample values:
+    224-22f@627-s8q-skf
+    22b-222@627-s8j-ht9
+    zzw-223@627-s4s-zpv
+    222-229@627-s8r-y35
+    zzw-22f@627-s8q-wzf
+    22f-229@627-s8r-fj9
+    22j-226@627-s4m-yn5
+    225-226@627-s8r-rx5
+    zzw-22k@627-s8n-649
+    zzw-22y@627-s4r-2hq
+
+Column 'location_name' — 10 sample values:
+    Jewish Communal Fund
+    Underwest Donuts
+    Lexington Luggage
+    Bar 13
+    Fedex Office Print & Ship Center
+    SLT
+    Il Mattone
+    Casellula
+    Trinity Lutheran Church
+    Bike Rent NYC Central Park South
+
+Column 'safegraph_brand_ids' — 10 sample values:
+    SG_BRAND_51f62da8d76022e2
+    SG_BRAND_231910c412e767bd
+    SG_BRAND_cd8e7918010a87cc619849e00265c9a6
+    SG_BRAND_790c6eabf25d3b854cd9c3ec7ead2fe5
+    SG_BRAND_6c8517821cbe4f42e48d9214f49b8b0b
+    SG_BRAND_15c6755c5265c436
+    SG_BRAND_e342599de14da705
+    SG_BRAND_5725c57624e4d885d0bf718123615aa9
+    SG_BRAND_f116acfe9147494063e58da666d1d57e
+    SG_BRAND_6941ee98f89b15bb
+
+Note: pois_nyc.csv has NO safegraph_place_id / 'sg:' column at all.
+   any 'sg:'-style value anywhere in pois_nyc.csv? -> False
+
+
+##### STEP 5 — exact-overlap test of 282 store ids vs every pois column #####
+282 store ids (n unique = 282) tested for EXACT match in each pois column:
+   Unnamed: 0              : 0 exact matches
+   placekey                : 0 exact matches
+   parent_placekey         : 0 exact matches
+   location_name           : 0 exact matches
+   safegraph_brand_ids     : 0 exact matches
+   brands                  : 0 exact matches
+   top_category            : 0 exact matches
+   sub_category            : 0 exact matches
+   naics_code              : 0 exact matches
+   latitude                : 0 exact matches
+   longitude               : 0 exact matches
+   street_address          : 0 exact matches
+   city                    : 0 exact matches
+   region                  : 0 exact matches
+   postal_code             : 0 exact matches
+   iso_country_code        : 0 exact matches
+   phone_number            : 0 exact matches
+   open_hours              : 0 exact matches
+   category_tags           : 0 exact matches
+   opened_on               : 0 exact matches
+   closed_on               : 0 exact matches
+   tracking_closed_since   : 0 exact matches
+   geometry_type           : 0 exact matches
+   RESULT: 0 exact matches in every column. The join key is absent from pois_nyc.csv.
+
+
+##### STEP 6 — coordinates / nearest-neighbour feasibility #####
+pois_nyc.csv has latitude/longitude? True
+   pois lat range [40.5001, 44.3000], lon range [-78.7804, -72.6449]
+table_2018.csv coordinate columns? -> ['E_Population_in_this_cbg', 'F_Population_where_store_is']
+Other files in data/ with store coordinates?
+   data/model_inputs/table_20{18-21}.csv : no lat/lon (only A_cbg + B_store + features)
+   data/model_outputs/PSO_*.csv          : cbg-level params, no store coords
+   data/processed/NY_cbg_census.csv      : census by GEOID (cbg), no store coords
+   data/processed/nyc_cbgs.json          : cbg polygons, no store coords
+   (Notebooks referenced data/1_data_for_extracting_information/all_info_after_aggregation.csv
+    which held safegraph_place_id+geo, but that file is NOT present on disk.)
+
+FEASIBILITY of nearest-coordinate match for the 45 unmatched stores (incl. 26 Dollar General):
+   NOT POSSIBLE from repo data. pois_nyc.csv has coordinates, but there is NO source of
+   coordinates for the 282 B_store ids to match against. Nearest-neighbour needs BOTH sides;
+   the store side has no lat/lon anywhere in data/. 0 of 45 can be matched by coordinate today.
+
+
+##### STEP 7 — full brand -> naics -> category breakdown (all 282 stores) #####
+Total stores: 282   Total brands: 24   Stores with NO-NAICS: 45
+
+            brand_name  n_stores                            naics_code                                                         category_label                         sub_category                                  brand_id
+             T.J. Maxx        22                              452210.0                                                      Department Stores                    Department Stores SG_BRAND_6ac3d7996fd37353f8027aee42005f19
+                Target        20                              452210.0                                                      Department Stores                    Department Stores SG_BRAND_42aefbae01d2dfd981f7da7d823d689e
+   Sears Home Services        12                              452210.0                                                      Department Stores                    Department Stores                 SG_BRAND_5c7f85555964e8af
+                Macy's         9                              452210.0                                                      Department Stores                    Department Stores SG_BRAND_c4dcaa7cf7557d16a01eae1dcfc5fabd
+        Bloomingdale's         6                              452210.0                                                      Department Stores                    Department Stores SG_BRAND_dc2b6b0cbd66bec8e02d299674d6a096
+      Barneys New York         5                              452210.0                                                      Department Stores                    Department Stores SG_BRAND_8c43cf1e208f3db22255401005035872
+                Hermès         4                              452210.0                                                      Department Stores                    Department Stores SG_BRAND_1a833c2641a4cf3c229316a14b6e32b7
+        Saks Off Fifth         2                              452210.0                                                      Department Stores                    Department Stores                 SG_BRAND_ca5c953852e314a9
+        Bottega Veneta         1                              452210.0                                                      Department Stores                    Department Stores SG_BRAND_8bdfb953dba680d2be0913fec2355417
+            Lou & Grey         1                              452210.0                                                      Department Stores                    Department Stores SG_BRAND_1b9be6a86c752f028c419753b5894ee2
+     Saks Fifth Avenue         1                              452210.0                                                      Department Stores                    Department Stores SG_BRAND_c8bb13bf059b36b833c4b52648d0ee5a
+           Dollar Tree        77                              452319.0 General Merchandise Stores, including Warehouse Clubs and Supercenters All Other General Merchandise Stores SG_BRAND_6b1e006c89aa3f8b054a05fa90581501
+  Family Dollar Stores        58                              452319.0 General Merchandise Stores, including Warehouse Clubs and Supercenters All Other General Merchandise Stores SG_BRAND_6db086b96ff72a99a60c4a182d90fe10
+            Five Below        10                              452319.0 General Merchandise Stores, including Warehouse Clubs and Supercenters All Other General Merchandise Stores SG_BRAND_3f25071e778c22839c918302c0f22bf7
+Costco Wholesale Corp.         5                              452319.0 General Merchandise Stores, including Warehouse Clubs and Supercenters All Other General Merchandise Stores SG_BRAND_60b7b54d19fca719281e76d485a141ad
+                 Kmart         3                              452319.0 General Merchandise Stores, including Warehouse Clubs and Supercenters All Other General Merchandise Stores SG_BRAND_98f6b474794d85f694762c9b52bbc351
+         Amazon 4-Star         1                              452319.0 General Merchandise Stores, including Warehouse Clubs and Supercenters All Other General Merchandise Stores                 SG_BRAND_843d199a3265aaed
+        Dollar General        26 NO-NAICS (brand absent from pois_nyc)                                                                 (none)                               (none) SG_BRAND_a4efb9d8ddf0f71207d49f713c5bc1e9
+   BJ's Wholesale Club         8 NO-NAICS (brand absent from pois_nyc)                                                                 (none)                               (none) SG_BRAND_f114e3e39748c95944856cc06c40af68
+              JCPenney         3 NO-NAICS (brand absent from pois_nyc)                                                                 (none)                               (none) SG_BRAND_c50f7c7cdd1a67e679e05e8ab3f83478
+                Kohl's         3 NO-NAICS (brand absent from pois_nyc)                                                                 (none)                               (none) SG_BRAND_64a77880c7f7c1d3133d10e574c97a8b
+         Neiman Marcus         2 NO-NAICS (brand absent from pois_nyc)                                                                 (none)                               (none) SG_BRAND_77d47d1ee922f9fd18daba73359bc3ea
+                 Sears         2 NO-NAICS (brand absent from pois_nyc)                                                                 (none)                               (none) SG_BRAND_e9301d5c735afc317688baa02d272807
+                 DAISO         1 NO-NAICS (brand absent from pois_nyc)                                                                 (none)                               (none) SG_BRAND_927a3f9287b584093fd6c2ef5f217784
+
+Rollup by naics_code / category_label:
+naics_code                                                           top_category  n_stores
+  452319.0 General Merchandise Stores, including Warehouse Clubs and Supercenters       154
+  452210.0                                                      Department Stores        83
+  NO-NAICS                                                                    NaN        45
+
+Brands with NO NAICS (absent from pois_nyc.csv by brand id):
+   BJ's Wholesale Club      n=  8  brand_id=SG_BRAND_f114e3e39748c95944856cc06c40af68
+   DAISO                    n=  1  brand_id=SG_BRAND_927a3f9287b584093fd6c2ef5f217784
+   Dollar General           n= 26  brand_id=SG_BRAND_a4efb9d8ddf0f71207d49f713c5bc1e9
+   JCPenney                 n=  3  brand_id=SG_BRAND_c50f7c7cdd1a67e679e05e8ab3f83478
+   Kohl's                   n=  3  brand_id=SG_BRAND_64a77880c7f7c1d3133d10e574c97a8b
+   Neiman Marcus            n=  2  brand_id=SG_BRAND_77d47d1ee922f9fd18daba73359bc3ea
+   Sears                    n=  2  brand_id=SG_BRAND_e9301d5c735afc317688baa02d272807
