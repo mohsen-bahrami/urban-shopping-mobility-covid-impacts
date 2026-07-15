@@ -1,0 +1,5 @@
+,Store area,Chain loyalty,POI count,POI diversity,Demographic similarity,CBG-Store Distance
+Full sample (n=5502),78.58,43.46,27.93,12.2,2.5,-22.53
+Exclude bottom 10% fit (n=4951),77.44,44.04,20.1,11.69,2.25,-21.3
+Exclude bottom 20% fit (n=4401),81.49,44.35,22.46,12.58,1.79,-18.91
+Exclude bottom 25% fit (n=4126),82.64,44.15,22.8,12.84,1.93,-17.89
