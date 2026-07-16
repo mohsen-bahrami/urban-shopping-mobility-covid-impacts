@@ -318,12 +318,17 @@ For the store-format disaggregation robustness check, `data/processed/nyc-poi-in
 
 ## Citation
 
-A citation will be added after publication.
+Please cite this research and repository as:
+**APA:**
+> Xu, Y., Bahrami, M., & Pentland, Alex. Customer Behavioral Shifts as a Result of the COVID-19 Pandemic: Are They “Sticky”? [SocArXiv](https://osf.io/preprints/socarxiv/jk7q9_v1)
 
-For now, please cite this repository as:
-
-```text
-Xu, Y., Bahrami, M., and Pentland, A. Urban Shopping Mobility and Socioeconomic Inequality During COVID-19. GitHub repository: urban-shopping-mobility-covid-impacts.
+**BibTeX:**
+```bibtex
+@article{xucustomer,
+  title={Customer Behavioral Shifts as a Result of the COVID-19 Pandemic: Are They “Sticky”?},
+  author={Xu, Yilun and Bahrami, Mohsen and Pentland, Alex},
+  publisher={OSF}
+}
 ```
 
 ## License
