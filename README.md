@@ -320,6 +320,8 @@ For the store-format disaggregation robustness check, `data/processed/nyc-poi-in
 
 Please cite this research and repository as:
 
+**APA**
+
 > Xu, Y., Bahrami, M., & Pentland, Alex. Customer Behavioral Shifts as a Result of the COVID-19 Pandemic: Are They “Sticky”? [SocArXiv](https://osf.io/preprints/socarxiv/jk7q9_v1)
 
 **BibTeX:**
