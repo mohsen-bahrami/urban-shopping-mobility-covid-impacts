@@ -61,3 +61,5 @@ Here are 4 datasets that we created from all above provided datasets and unprovi
 28.	parameter_values_ses_cluster_comparison_2019.csv: means of calibrated parameter values in 2019 in different communities.
 
 
+## E. Data for Robustness Checks
+29.	nyc-poi-info.csv: POI-level information for NYC stores keyed on safegraph_place_id (with parent_safegraph_place_id, location_name, safegraph_brand_ids, brands, top_category, sub_category, naics_code, latitude, longitude) joined to census tract fields. We use it to assign each store a NAICS-based store format for the format-disaggregation robustness check.
