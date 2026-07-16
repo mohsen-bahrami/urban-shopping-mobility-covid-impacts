@@ -30,13 +30,19 @@ The repository includes analyses for:
 * Moran’s I and LISA spatial autocorrelation diagnostics
 * sampling-bias sensitivity of the main model results
 
+It also includes a set of **robustness checks** to address the potential concerns about different stages/components of analyses:
+
+* model-fit-stratified sensitivity of the parameter changes (model-fit concern)
+* store-format disaggregation by NAICS, calibrated separately for department stores and general merchandise (chain-loyalty / terminology concern)
+* lagged chain-loyalty re-calibration with a placebo year (contemporaneous mechanical-inflation concern)
+* PSO estimator/seed stability across random seeds (uncertainty-quantification concern)
+
 ## Repository structure
 
 ```text
 urban-shopping-mobility-covid-impacts/
 │
 ├── README.md
-├── LICENSE
 ├── requirements.txt
 ├── .gitignore
 │
@@ -49,10 +55,18 @@ urban-shopping-mobility-covid-impacts/
 ├── data/
 │   ├── processed/
 │   │   ├── NY_cbg_census.csv
-│   │   └── nyc_cbgs.json
+│   │   ├── nyc_cbgs.json
+│   │   ├── pois_nyc.csv
+│   │   └── nyc-poi-info.csv                 # POI info keyed on safegraph_place_id
+│   │                                        # (store format / NAICS, brand, category, lat/lon,
+│   │                                        # census tract fields) for the format disaggregation
 │   │
-│   ├── model_inputs/
-│   │   └── README.md
+│   ├── model_inputs/                        # large PSO input tables (hosted on OSF)
+│   │   ├── README.md
+│   │   ├── table_2018.csv
+│   │   ├── table_2019.csv
+│   │   ├── table_2020.csv
+│   │   └── table_2021.csv
 │   │
 │   ├── model_outputs/
 │   │   ├── PSO_2018_6params_NYC_norm_28_PSO_15.csv
@@ -61,21 +75,35 @@ urban-shopping-mobility-covid-impacts/
 │   │   └── PSO_2021_6params_NYC_norm_28_PSO_15.csv
 │   │
 │   └── data_representativeness_analysis_inputs/
-│       └── README.md
+│       └── README.md                        # large census-derived inputs (hosted on OSF)
 │
 ├── notebooks/
 │   ├── 01_data_representativeness.ipynb
 │   ├── 02_socioeconomic_spatial_diagnostics.ipynb
 │   ├── 03_model_sensitivity_sampling_bias.ipynb
-│   └── 04_top_ses_threshold_sensitivity.ipynb
+│   ├── 04_top_ses_threshold_sensitivity.ipynb
+│   ├── 05_top_ses_changes_param_distributions_delta_population_as_of_2021.ipynb
+│   ├── 1_code_for_extracting_information/    # SafeGraph filtering + PSO-table construction
+│   ├── 2_code_for_PSO_calibration/          # Huff/MCI PSO calibration (per-year templates)
+│   ├── 3_code_for_combining_PSO_results/    # aggregate per-core calibration results
+│   └── 4_analysis/
+│       ├── 1_ … 12_ …                       # main-analysis notebooks (see code_descriptions.md)
+│       ├── 13_fit_stratified_sensitivity.ipynb   # robustness check: model-fit concern
+│       ├── 14_format_disaggregation.ipynb        # robustness check: chain-loyalty / terminology
+│       ├── 15_lagged_chain_loyalty.ipynb         # robustness check: mechanical-inflation concern
+│       ├── 16_pso_estimator_stability.ipynb      # robustness check: uncertainty quantification
+│       └── simulated_annealing.R
 │
 └── outputs/
     ├── data_representativeness/
+    ├── socioeconomic_spatial_diagnostics/
     ├── top_ses_threshold_sensitivity/
     ├── robustness/
-    └── socioeconomic_spatial_diagnostics/
-        ├── figures/
-        └── tables/
+    ├── model_outputs/
+    ├── item2_fit_sensitivity/               # fit-stratified sensitivity tables
+    ├── item3_format_disaggregation/         # store format mapping, per-format samples & PSO
+    ├── item4_chain_loyalty/                 # lagged PSO, concentration diagnostics, placebo
+    └── item5_pso_stability/                 # 12,000 seed runs + stability report
 
 ```
 
@@ -135,18 +163,28 @@ pip install -r requirements.txt
 
 ```text
 data/model_inputs/
-data/representativeness_inputs/
+data/data_representativeness_analysis_inputs/
 ```
 
-5. For the main analysis from model outputs, run the notebooks in the sub-folder as explained in `docs/Code_Descriptions/code_descriptions.md`
+5. For the main analysis from model outputs, run the notebooks in `notebooks/4_analysis/` as explained in `docs/Code_Descriptions/code_descriptions.md`.
 
-6. For robustness checks and sensitivity analysis run the notbooks as follows:
+6. For the representativeness and sensitivity robustness checks, run the top-level notebooks:
 
 ```text
 01_data_representativeness.ipynb
 02_socioeconomic_spatial_diagnostics.ipynb
 03_model_sensitivity_sampling_bias.ipynb
 04_top_ses_threshold_sensitivity.ipynb
+05_top_ses_changes_param_distributions_delta_population_as_of_2021.ipynb
+```
+
+7. For the robustness checks, run the numbered notebooks in `notebooks/4_analysis/`:
+
+```text
+13_fit_stratified_sensitivity.ipynb
+14_format_disaggregation.ipynb
+15_lagged_chain_loyalty.ipynb
+16_pso_estimator_stability.ipynb
 ```
 
 ## Notebook descriptions
@@ -166,6 +204,18 @@ Tests whether the main model results are sensitive to SafeGraph sampling bias by
 ### `04_top_ses_threshold_sensitivity.ipynb`
 
 Evaluates whether socioeconomic heterogeneity results are sensitive to the choice of top 5% versus top 10% thresholds for defining high-concentration socioeconomic and demographic communities.
+
+### `05_top_ses_changes_param_distributions_delta_population_as_of_2021.ipynb`
+
+Compares parameter-change distributions for high-concentration socioeconomic groups against the full NYC population using delta values as of 2021.
+
+The following notebooks, each opens with a description of the robustness check and the concern it addresses, and each verifies its recomputed numbers against the outputs used in the main analyses.
+
+* **`13_fit_stratified_sensitivity.ipynb`** stratifies CBGs by model fit and checks whether the parameter-change findings are sensitive to fit quality (model-fit concern).
+* **`14_format_disaggregation.ipynb`** maps each store to a NAICS store format and re-runs the PSO calibration separately for department stores (452210) and general merchandise (452319) (chain-loyalty / terminology concern).
+* **`15_lagged_chain_loyalty.ipynb`** re-runs the calibration with the chain-loyalty feature lagged by one year, plus a 2019 placebo, to test whether the chain-loyalty rise is a contemporaneous mechanical artifact.
+* **`16_pso_estimator_stability.ipynb`** re-runs the PSO ten times per CBG-year across random seeds (12,000 runs) to quantify estimator/seed uncertainty (uncertainty-quantification concern).
+
 
 ## Main analyses
 
@@ -192,6 +242,9 @@ This repository supports the following analysis components:
 * **Sampling-bias sensitivity**
   Robustness checks excluding the top 10% and top 20% of CBGs with the highest absolute SafeGraph sampling bias.
 
+* **Robustness checks**
+  Fit-stratified sensitivity, store-format disaggregation, lagged chain-loyalty re-calibration with a placebo, and PSO estimator/seed stability.
+
 ## Key outputs
 
 Generated outputs are organized as follows:
@@ -215,22 +268,34 @@ outputs/socioeconomic_spatial_diagnostics/
 Contains PCA outputs, K-means stability results, Moran’s I diagnostics, and LISA outputs.
 
 ```text
-outputs/sampling_bias_sensitivity/
+outputs/robustness/
 ```
 
-Contains sampling-bias sensitivity tables comparing the full analytical sample with samples excluding the most sampling-biased CBGs.
+Contains PCA, K-means stability, and sampling-bias sensitivity tables comparing the full analytical sample with samples excluding the most sampling-biased CBGs.
 
 ```text
-outputs/figures/
+outputs/item2_fit_sensitivity/
 ```
 
-Contains manuscript and supplementary figures generated from the analysis notebooks.
+Contains fit-distribution and fit-stratified parameter-change tables.
 
 ```text
-outputs/tables/
+outputs/item3_format_disaggregation/
 ```
 
-Contains manuscript and supplementary tables generated from the analysis notebooks.
+Contains the store→format (NAICS) mapping, per-format CBG samples, and by-format PSO calibration results.
+
+```text
+outputs/item4_chain_loyalty/
+```
+
+Contains mechanical-concentration diagnostics, the lagged-loyalty PSO results (pooled and by format), and the 2019 placebo check.
+
+```text
+outputs/item5_pso_stability/
+```
+
+Contains the full record of the 12,000 seeded PSO runs and the estimator-stability report.
 
 ## Data notes
 
@@ -248,6 +313,8 @@ G_Distance_between_cbg_and_store
 ```
 
 These correspond to store area, chain loyalty, POI count, POI diversity, demographic similarity, and customer-store distance.
+
+For the store-format disaggregation robustness check, `data/processed/nyc-poi-info.csv` links each SafeGraph `safegraph_place_id` to its NAICS code, brand, and top/sub category, allowing stores to be split into department stores (NAICS 452210) and general merchandise stores (NAICS 452319).
 
 ## Citation
 
