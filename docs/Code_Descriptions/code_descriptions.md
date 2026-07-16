@@ -41,3 +41,9 @@ The inputs of this folder are the calibrated results from each core on the serve
 17.	`10_DID.ipynb`: This file is to conduct the DID model.
 18.	`11_general_change_with_top_clusters.ipynb`: this file is to get some numerical results describing the general changes in all residents, top 5% groups, and Kmeans clusters.
 19.	`12_model_performance_analysis.ipynb`: this file is to analyze the performance of the proposed model in this study.
+
+## E. Code for Robustness Checks (Reviewer Response)
+20. `13_fit_stratified_sensitivity.ipynb`: Repeats the main percentage-change comparisons after excluding the CBGs with the lowest model fit (by threshold and by fit quartile) to test whether the pandemic-shock and non-reversion findings are driven by poorly-fitting CBGs — addresses the concern about the 2020–2021 model-fit decline. Runs directly on the existing PSO output files in `data/model_outputs/`, with no additional input data required.
+21.	`14_format_disaggregation.ipynb`: this file is to disaggregate the store sample by NAICS store format (452210 department stores vs. 452319 general merchandise) and re-run the PSO calibration separately for each format, addressing the concern about pooling heterogeneous retail formats.
+22.	`15_lagged_chain_loyalty.ipynb`: this file is to re-run the calibration with the chain-loyalty input feature lagged by one year (plus a 2019 placebo check), addressing the concern that the rise in chain loyalty is a contemporaneous mechanical artifact.
+23.	`16_pso_estimator_stability.ipynb`: this file is to re-run the PSO ten times per CBG-year across random seeds to quantify estimator/seed uncertainty, addressing the concern about uncertainty quantification.
