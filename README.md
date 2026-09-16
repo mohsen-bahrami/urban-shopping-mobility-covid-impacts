@@ -48,6 +48,9 @@ urban-shopping-mobility-covid-impacts/
 ├── .gitignore
 │
 ├── docs/
+│   ├── Published/
+│   │   ├── Manuscript.pdf
+│   │   └── Supplementary_Material.pdf
 │   ├── Code_Descriptions/
 │   │   └── code_descriptions.md
 │   └── Data_Descriptions/
