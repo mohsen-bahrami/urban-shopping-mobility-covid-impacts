@@ -1,4 +1,5 @@
 # Urban Shopping Mobility and Socioeconomic Inequality During COVID-19
+## [Read the published paper here.](https://www.frontiersin.org/articles/10.3389/fdata.2026.1776172)
 
 This repository contains code, preprocessed data, model outputs, and robustness analyses for a research project examining how the COVID-19 pandemic reshaped in-person department-store shopping mobility in New York City and how these changes varied across socioeconomic and demographic communities.
 
@@ -322,14 +323,17 @@ Please cite this research and repository as:
 
 **APA**
 
-> Xu, Y., Bahrami, M., & Pentland, Alex. Customer Behavioral Shifts as a Result of the COVID-19 Pandemic: Are They “Sticky”? [SocArXiv](https://osf.io/preprints/socarxiv/jk7q9_v1)
+> [Xu, Y., Bahrami, M., & Pentland, A. S. From Crisis to New Routine: Shifts in Urban Shopping Mobility and Socioeconomic Inequality During and After the COVID-19 Shock. Frontiers in Big Data, 9, 1776172.](https://www.frontiersin.org/articles/10.3389/fdata.2026.1776172)
 
 **BibTeX:**
 ```bibtex
-@article{xucustomer,
-  title={Customer Behavioral Shifts as a Result of the COVID-19 Pandemic: Are They “Sticky”?},
-  author={Xu, Yilun and Bahrami, Mohsen and Pentland, Alex},
-  publisher={OSF}
+@article{xu9crisis,
+  title={From Crisis to New Routine: Shifts in Urban Shopping Mobility and Socioeconomic Inequality During and After the COVID-19 Shock},
+  author={Xu, Yilun and Bahrami, Mohsen and Pentland, Alex'Sandy'},
+  journal={Frontiers in Big Data},
+  volume={9},
+  pages={1776172},
+  publisher={Frontiers}
 }
 ```
 
